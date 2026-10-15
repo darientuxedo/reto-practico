@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SauceDemo Access and Purchase #1" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-10-15T18:17:20" time="11.812">
+  <properties/>
+  <testcase name="Completion and confirmation of demo purchase" classname="SauceDemo Access and Purchase #1" time="11.812"/>
+  <system-out><![CDATA[
+@scenario_1
+Scenario Outline: Completion and confirmation of demo purchase                                                                                                                                 # build/generated-features/scenario-1.feature:16
+  Given the test data from "Compra" for case "POS-001"                                                                                                                                         # com.ultimate.qa.steps.RecordedSteps.selectEnglishDataCase(java.lang.String,java.lang.String)
+  And the user has navigated to the login page                                                                                                                                                 # com.ultimate.qa.steps.RecordedSteps.openLoginForPurchase()
+  And the user has logged in with "{{Compra.usuario}}" and "{{Compra.clave}}" and has seen "Products"                                                                                          # com.ultimate.qa.steps.RecordedSteps.authenticateBuyer()
+  And the user has added "{{Compra.producto}}" to the cart and has proceeded to checkout                                                                                                       # com.ultimate.qa.steps.RecordedSteps.addPurchaseProductAndStartCheckout()
+  And the user has entered checkout information with first name "{{Compra.nombre}}", last name "{{Compra.apellido}}", postal code "{{Compra.codigo_postal}}" and has seen "Checkout: Overview" # com.ultimate.qa.steps.RecordedSteps.provideBuyerInformation()
+  When the user finishes the purchase                                                                                                                                                          # com.ultimate.qa.steps.RecordedSteps.completePurchase()
+  Then the user sees the confirmation message "Thank you for your order!"                                                                                                                      # com.ultimate.qa.steps.RecordedSteps.assertOrderConfirmation()
+]]></system-out>
+  <system-err><![CDATA[oct. 15, 2026 1:17:25 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTENCIA: Unable to find CDP implementation matching 154
+oct. 15, 2026 1:17:25 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+ADVERTENCIA: Unable to find version of CDP to use for 154.0.8037.59. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.41.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+</testsuite>

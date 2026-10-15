@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SauceDemo Access and Purchase #2" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-10-15T18:17:32" time="6.05">
+  <properties/>
+  <testcase name="Access blocked for locked out account" classname="SauceDemo Access and Purchase #2" time="6.05"/>
+  <system-out><![CDATA[
+@scenario_2
+Scenario Outline: Access blocked for locked out account                                                 # build/generated-features/scenario-2.feature:14
+  Given the test data from "UsuarioBloqueado" for case "NEG-001"                                        # com.ultimate.qa.steps.RecordedSteps.selectEnglishDataCase(java.lang.String,java.lang.String)
+  And the user is on the login page                                                                     # com.ultimate.qa.steps.RecordedSteps.openLoginForLockedAccount()
+  When the user attempts to log in with "{{UsuarioBloqueado.usuario}}" and "{{UsuarioBloqueado.clave}}" # com.ultimate.qa.steps.RecordedSteps.attemptLockedLogin()
+  Then the user sees the error message "{{UsuarioBloqueado.mensaje_esperado}}"                          # com.ultimate.qa.steps.RecordedSteps.assertAccountRejection()
+  And the user remains on the login page without the product catalog                                    # com.ultimate.qa.steps.RecordedSteps.assertLoginRemainsVisible()
+]]></system-out>
+  <system-err><![CDATA[oct. 15, 2026 1:17:35 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTENCIA: Unable to find CDP implementation matching 154
+oct. 15, 2026 1:17:35 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+ADVERTENCIA: Unable to find version of CDP to use for 154.0.8037.59. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.41.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+</testsuite>

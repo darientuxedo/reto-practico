@@ -1,0 +1,49 @@
+{
+  "preparedAt": "2026-10-15T19:08:38.351Z",
+  "diagnosticAuditRecordedAt": "2026-10-15T18:59:25.625Z",
+  "reloadCheckRecordedAt": "2026-10-15T19:00:46.056Z",
+  "diagnosticScoresUsed": false,
+  "navigationSamplesRetained": {
+    "attempted": 36,
+    "accepted": 29,
+    "rejected": 7
+  },
+  "confirmation": {
+    "sameVisibleUrl": true,
+    "sameTab": true,
+    "sameHeadings": true,
+    "textLengths": [
+      {
+        "stage": "before",
+        "length": 276
+      },
+      {
+        "stage": "native-accessibility",
+        "length": 257
+      },
+      {
+        "stage": "native-accessibility",
+        "length": 257
+      },
+      {
+        "stage": "after",
+        "length": 257
+      }
+    ],
+    "publicUiDifferenceReproducedByReload": {
+      "removed": "Generate PDF order ",
+      "added": ""
+    },
+    "conclusion": "The Generate PDF order control disappears on reload. A loading audit is not equivalent to the recorded final state. This is not evidence of a login redirect."
+  },
+  "overviewMobileSecondSample": {
+    "preciseCauseRecorded": false,
+    "rejectedSamplePreserved": true
+  },
+  "supplementalEvaluation": {
+    "folder": "lighthouse-confirmacion-estado",
+    "explicit": true,
+    "replacesRejectedSamples": false,
+    "scope": "Snapshot-compatible checks on the current confirmation state, without navigation, loading performance, FCP, LCP or INP."
+  }
+}

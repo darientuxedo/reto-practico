@@ -1,0 +1,18 @@
+#!/bin/sh
+set -e
+
+BASE_DIR="$(cd "$(dirname "$0")" && pwd)"
+WRAPPER_JAR="$BASE_DIR/gradle/wrapper/gradle-wrapper.jar"
+
+if [ ! -f "$WRAPPER_JAR" ]; then
+  echo "Missing gradle/wrapper/gradle-wrapper.jar"
+  echo "Run 'gradle wrapper --gradle-version 8.0' in this project or restore the wrapper jar."
+  exit 1
+fi
+
+JAVA_CMD="java"
+if [ -n "$JAVA_HOME" ]; then
+  JAVA_CMD="$JAVA_HOME/bin/java"
+fi
+
+exec "$JAVA_CMD" $JAVA_OPTS $GRADLE_OPTS -Dorg.gradle.appname=gradlew -classpath "$WRAPPER_JAR" org.gradle.wrapper.GradleWrapperMain "$@"

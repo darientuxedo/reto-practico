@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="25.345" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="SauceDemo Access and Purchase" name="Completion and confirmation of demo purchase - #1.1" time="11.657">
+<system-out><![CDATA[
+Given the test data from "Compra" for case "POS-001"........................passed
+And the user has navigated to the login page................................passed
+And the user has logged in with "{{Compra.usuario}}" and "{{Compra.clave}}" and has seen "Products".passed
+And the user has added "{{Compra.producto}}" to the cart and has proceeded to checkout.passed
+And the user has entered checkout information with first name "{{Compra.nombre}}", last name "{{Compra.apellido}}", postal code "{{Compra.codigo_postal}}" and has seen "Checkout: Overview".passed
+When the user finishes the purchase.........................................passed
+Then the user sees the confirmation message "Thank you for your order!".....passed
+]]></system-out>
+</testcase>
+<testcase classname="SauceDemo Access and Purchase" name="Access blocked for locked out account - #1.1" time="6.03">
+<system-out><![CDATA[
+Given the test data from "UsuarioBloqueado" for case "NEG-001"..............passed
+And the user is on the login page...........................................passed
+When the user attempts to log in with "{{UsuarioBloqueado.usuario}}" and "{{UsuarioBloqueado.clave}}".passed
+Then the user sees the error message "{{UsuarioBloqueado.mensaje_esperado}}".passed
+And the user remains on the login page without the product catalog..........passed
+]]></system-out>
+</testcase>
+<testcase classname="SauceDemo Access and Purchase" name="Cancellation on first checkout information form - #1.1" time="7.227">
+<system-out><![CDATA[
+Given the test data from "Cancelacion" for case "ALT-001"...................passed
+And the user has opened the login page......................................passed
+And the user has logged in with "{{Cancelacion.usuario}}" and "{{Cancelacion.clave}}" and has seen the "Products" title.passed
+And the user has added "{{Cancelacion.producto}}" to the cart and has navigated to the checkout information form.passed
+When the user cancels the checkout information form.........................passed
+Then the user returns to the cart...........................................passed
+And the cart displays "{{Cancelacion.producto}}"............................passed
+And the item row for "{{Cancelacion.producto}}" displays quantity "{{Cancelacion.cantidad_esperada}}".passed
+And the item row for "{{Cancelacion.producto}}" displays price "{{Cancelacion.precio_esperado}}".passed
+]]></system-out>
+</testcase>
+</testsuite>

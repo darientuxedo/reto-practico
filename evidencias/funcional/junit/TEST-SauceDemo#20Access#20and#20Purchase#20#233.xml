@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SauceDemo Access and Purchase #3" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-10-15T18:17:38" time="7.233">
+  <properties/>
+  <testcase name="Cancellation on first checkout information form" classname="SauceDemo Access and Purchase #3" time="7.233"/>
+  <system-out><![CDATA[
+@scenario_3
+Scenario Outline: Cancellation on first checkout information form                                                         # build/generated-features/scenario-3.feature:18
+  Given the test data from "Cancelacion" for case "ALT-001"                                                               # com.ultimate.qa.steps.RecordedSteps.selectEnglishDataCase(java.lang.String,java.lang.String)
+  And the user has opened the login page                                                                                  # com.ultimate.qa.steps.RecordedSteps.openLoginForCancellation()
+  And the user has logged in with "{{Cancelacion.usuario}}" and "{{Cancelacion.clave}}" and has seen the "Products" title # com.ultimate.qa.steps.RecordedSteps.authenticateBeforeCancellation()
+  And the user has added "{{Cancelacion.producto}}" to the cart and has navigated to the checkout information form        # com.ultimate.qa.steps.RecordedSteps.addCancellationProductAndStartCheckout()
+  When the user cancels the checkout information form                                                                     # com.ultimate.qa.steps.RecordedSteps.cancelCheckout()
+  Then the user returns to the cart                                                                                       # com.ultimate.qa.steps.RecordedSteps.assertReturnToCart()
+  And the cart displays "{{Cancelacion.producto}}"                                                                        # com.ultimate.qa.steps.RecordedSteps.assertProductRetained()
+  And the item row for "{{Cancelacion.producto}}" displays quantity "{{Cancelacion.cantidad_esperada}}"                   # com.ultimate.qa.steps.RecordedSteps.assertQuantityRetained()
+  And the item row for "{{Cancelacion.producto}}" displays price "{{Cancelacion.precio_esperado}}"                        # com.ultimate.qa.steps.RecordedSteps.assertPriceRetained()
+]]></system-out>
+  <system-err><![CDATA[oct. 15, 2026 1:17:41 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTENCIA: Unable to find CDP implementation matching 154
+oct. 15, 2026 1:17:41 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+ADVERTENCIA: Unable to find version of CDP to use for 154.0.8037.59. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.41.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ultimate.qa.pages.RecordedPageTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-15T18:24:08" time="0.734">
+  <properties/>
+  <testcase name="equivalentFallbacksPerformExactlyOneAction" classname="com.ultimate.qa.pages.RecordedPageTest" time="0.063"/>
+  <testcase name="conflictingFallbacksNeverClick" classname="com.ultimate.qa.pages.RecordedPageTest" time="0.003"/>
+  <testcase name="priceAssertionsAreExactNotSubstring" classname="com.ultimate.qa.pages.RecordedPageTest" time="0.605"/>
+  <testcase name="ambiguousPrimaryNeverClicks" classname="com.ultimate.qa.pages.RecordedPageTest" time="0.023"/>
+  <testcase name="configuredBaseIsValidatedAndPreservesPath" classname="com.ultimate.qa.pages.RecordedPageTest" time="0.037"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,3580 @@
+{
+  "id": "a70c265f-248a-41e2-b21e-5ca2a62e63ad",
+  "createdAt": "2026-10-15T17:57:04.533Z",
+  "finishedAt": "2026-10-15T18:01:53.092Z",
+  "status": "cancelled",
+  "stage": "Lighthouse · Completion and confirmation of demo purchase · fila 1 · Pantalla inicial · desktop · 1/3",
+  "profiles": [
+    {
+      "id": "profile-0",
+      "name": "Móvil compacto",
+      "width": 360,
+      "height": 800,
+      "kind": "mobile"
+    },
+    {
+      "id": "profile-1",
+      "name": "Móvil",
+      "width": 390,
+      "height": 844,
+      "kind": "mobile"
+    },
+    {
+      "id": "profile-2",
+      "name": "Móvil horizontal",
+      "width": 844,
+      "height": 390,
+      "kind": "mobile"
+    },
+    {
+      "id": "profile-3",
+      "name": "Tablet",
+      "width": 768,
+      "height": 1024,
+      "kind": "tablet"
+    },
+    {
+      "id": "profile-4",
+      "name": "Tablet horizontal",
+      "width": 1024,
+      "height": 768,
+      "kind": "tablet"
+    },
+    {
+      "id": "profile-5",
+      "name": "Escritorio",
+      "width": 1366,
+      "height": 768,
+      "kind": "desktop"
+    },
+    {
+      "id": "profile-6",
+      "name": "Escritorio amplio",
+      "width": 1920,
+      "height": 1080,
+      "kind": "desktop"
+    }
+  ],
+  "configuredBrowsers": [
+    "chromium",
+    "firefox"
+  ],
+  "responsive": [
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-0",
+        "name": "Móvil compacto",
+        "width": 360,
+        "height": 800,
+        "kind": "mobile"
+      },
+      "stepPath": "0",
+      "targetName": "Pantalla inicial",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "e22b0a19-92c0-47ae-8818-853e8477f296",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-0",
+        "name": "Móvil compacto",
+        "width": 360,
+        "height": 800,
+        "kind": "mobile"
+      },
+      "stepPath": "4",
+      "targetName": "Pantalla después del paso 4",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "19f75568-7074-4022-af46-ee628be605fa",
+      "findings": 2
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-0",
+        "name": "Móvil compacto",
+        "width": 360,
+        "height": 800,
+        "kind": "mobile"
+      },
+      "stepPath": "6",
+      "targetName": "Pantalla después del paso 6",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "d728ddbb-c311-4aeb-93c1-36aef7da9346",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-0",
+        "name": "Móvil compacto",
+        "width": 360,
+        "height": 800,
+        "kind": "mobile"
+      },
+      "stepPath": "7",
+      "targetName": "Pantalla después del paso 7",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "38ace439-dee2-4d4f-a459-2cc19bc0373f",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-0",
+        "name": "Móvil compacto",
+        "width": 360,
+        "height": 800,
+        "kind": "mobile"
+      },
+      "stepPath": "12",
+      "targetName": "Pantalla después del paso 12",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "eaa5fc7e-a78e-4e7b-b4f4-5bed000befa1",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-0",
+        "name": "Móvil compacto",
+        "width": 360,
+        "height": 800,
+        "kind": "mobile"
+      },
+      "stepPath": "14",
+      "targetName": "Pantalla después del paso 14",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "75f27f4f-8f45-4760-850d-fb270ae3f94b",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-1",
+        "name": "Móvil",
+        "width": 390,
+        "height": 844,
+        "kind": "mobile"
+      },
+      "stepPath": "0",
+      "targetName": "Pantalla inicial",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "1272251d-a149-4ccb-8508-699d6e227ec6",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-1",
+        "name": "Móvil",
+        "width": 390,
+        "height": 844,
+        "kind": "mobile"
+      },
+      "stepPath": "4",
+      "targetName": "Pantalla después del paso 4",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "97855a54-019f-4185-a988-7afaa4ad56a8",
+      "findings": 2
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-1",
+        "name": "Móvil",
+        "width": 390,
+        "height": 844,
+        "kind": "mobile"
+      },
+      "stepPath": "6",
+      "targetName": "Pantalla después del paso 6",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "64b00641-983d-4db6-9ea7-2074e0840659",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-1",
+        "name": "Móvil",
+        "width": 390,
+        "height": 844,
+        "kind": "mobile"
+      },
+      "stepPath": "7",
+      "targetName": "Pantalla después del paso 7",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "77274c5f-5747-4d15-9c38-576cf2b41845",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-1",
+        "name": "Móvil",
+        "width": 390,
+        "height": 844,
+        "kind": "mobile"
+      },
+      "stepPath": "12",
+      "targetName": "Pantalla después del paso 12",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "44312ce3-f478-48f2-a451-1e2171818137",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-1",
+        "name": "Móvil",
+        "width": 390,
+        "height": 844,
+        "kind": "mobile"
+      },
+      "stepPath": "14",
+      "targetName": "Pantalla después del paso 14",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "810721ec-8b45-492d-b379-3a5540b6c8ca",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-2",
+        "name": "Móvil horizontal",
+        "width": 844,
+        "height": 390,
+        "kind": "mobile"
+      },
+      "stepPath": "0",
+      "targetName": "Pantalla inicial",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "cfd1e2d1-91d2-4dab-95e2-544e25950da9",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-2",
+        "name": "Móvil horizontal",
+        "width": 844,
+        "height": 390,
+        "kind": "mobile"
+      },
+      "stepPath": "4",
+      "targetName": "Pantalla después del paso 4",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "a24ecdab-55e7-4222-84d9-581d6aa6652f",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-2",
+        "name": "Móvil horizontal",
+        "width": 844,
+        "height": 390,
+        "kind": "mobile"
+      },
+      "stepPath": "6",
+      "targetName": "Pantalla después del paso 6",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "c7ac3583-f6b8-471a-93ee-14728da77201",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-2",
+        "name": "Móvil horizontal",
+        "width": 844,
+        "height": 390,
+        "kind": "mobile"
+      },
+      "stepPath": "7",
+      "targetName": "Pantalla después del paso 7",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "852b8120-467e-4fd9-841e-22673bc50147",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-2",
+        "name": "Móvil horizontal",
+        "width": 844,
+        "height": 390,
+        "kind": "mobile"
+      },
+      "stepPath": "12",
+      "targetName": "Pantalla después del paso 12",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "de51b27f-597b-4b4f-b97a-e66b52301fb4",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-2",
+        "name": "Móvil horizontal",
+        "width": 844,
+        "height": 390,
+        "kind": "mobile"
+      },
+      "stepPath": "14",
+      "targetName": "Pantalla después del paso 14",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "166e5bb3-e293-4450-b035-80e0cdb6e2df",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-3",
+        "name": "Tablet",
+        "width": 768,
+        "height": 1024,
+        "kind": "tablet"
+      },
+      "stepPath": "0",
+      "targetName": "Pantalla inicial",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "b0bf76c2-d07c-4e2d-a706-c354d9e4600d",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-3",
+        "name": "Tablet",
+        "width": 768,
+        "height": 1024,
+        "kind": "tablet"
+      },
+      "stepPath": "4",
+      "targetName": "Pantalla después del paso 4",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "0e94813b-5ecb-47a4-a3f5-c05dca1aedd0",
+      "findings": 5
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-3",
+        "name": "Tablet",
+        "width": 768,
+        "height": 1024,
+        "kind": "tablet"
+      },
+      "stepPath": "6",
+      "targetName": "Pantalla después del paso 6",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "6f5221bc-4cf4-4c29-bd6d-27ce47681f44",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-3",
+        "name": "Tablet",
+        "width": 768,
+        "height": 1024,
+        "kind": "tablet"
+      },
+      "stepPath": "7",
+      "targetName": "Pantalla después del paso 7",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "7c3d720b-4874-458c-b521-bab3845068de",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-3",
+        "name": "Tablet",
+        "width": 768,
+        "height": 1024,
+        "kind": "tablet"
+      },
+      "stepPath": "12",
+      "targetName": "Pantalla después del paso 12",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "305f4345-45b0-4627-b257-5ad90b8d6d01",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-3",
+        "name": "Tablet",
+        "width": 768,
+        "height": 1024,
+        "kind": "tablet"
+      },
+      "stepPath": "14",
+      "targetName": "Pantalla después del paso 14",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "4ced68b8-b8ec-456f-9b63-dac909d52866",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-4",
+        "name": "Tablet horizontal",
+        "width": 1024,
+        "height": 768,
+        "kind": "tablet"
+      },
+      "stepPath": "0",
+      "targetName": "Pantalla inicial",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "b4a76ac2-72ba-430b-8dca-8abd5daeee67",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-4",
+        "name": "Tablet horizontal",
+        "width": 1024,
+        "height": 768,
+        "kind": "tablet"
+      },
+      "stepPath": "4",
+      "targetName": "Pantalla después del paso 4",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "2e15abb9-1403-490e-9240-c00a902d8fce",
+      "findings": 4
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-4",
+        "name": "Tablet horizontal",
+        "width": 1024,
+        "height": 768,
+        "kind": "tablet"
+      },
+      "stepPath": "6",
+      "targetName": "Pantalla después del paso 6",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "51cf3fc3-7a97-4d06-80ea-6550819e0951",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-4",
+        "name": "Tablet horizontal",
+        "width": 1024,
+        "height": 768,
+        "kind": "tablet"
+      },
+      "stepPath": "7",
+      "targetName": "Pantalla después del paso 7",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "2e24a9c0-95c4-4b9b-adc8-84eaab5992dd",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-4",
+        "name": "Tablet horizontal",
+        "width": 1024,
+        "height": 768,
+        "kind": "tablet"
+      },
+      "stepPath": "12",
+      "targetName": "Pantalla después del paso 12",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "cd7935c7-54ee-4420-ba19-c2bc539c6acd",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-4",
+        "name": "Tablet horizontal",
+        "width": 1024,
+        "height": 768,
+        "kind": "tablet"
+      },
+      "stepPath": "14",
+      "targetName": "Pantalla después del paso 14",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "6e816585-aa3b-4d53-b16c-e1c30c456993",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-5",
+        "name": "Escritorio",
+        "width": 1366,
+        "height": 768,
+        "kind": "desktop"
+      },
+      "stepPath": "0",
+      "targetName": "Pantalla inicial",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "6129bf06-42c0-4efe-b321-1a97ccb5cad9",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-5",
+        "name": "Escritorio",
+        "width": 1366,
+        "height": 768,
+        "kind": "desktop"
+      },
+      "stepPath": "4",
+      "targetName": "Pantalla después del paso 4",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "45935df8-1ad8-4e5c-aa59-131786cef6ea",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-5",
+        "name": "Escritorio",
+        "width": 1366,
+        "height": 768,
+        "kind": "desktop"
+      },
+      "stepPath": "6",
+      "targetName": "Pantalla después del paso 6",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "c06aa3e2-0466-45c1-81c5-c4e83a7a7192",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-5",
+        "name": "Escritorio",
+        "width": 1366,
+        "height": 768,
+        "kind": "desktop"
+      },
+      "stepPath": "7",
+      "targetName": "Pantalla después del paso 7",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "0c4c9421-9a52-4e96-8b02-1790b594a096",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-5",
+        "name": "Escritorio",
+        "width": 1366,
+        "height": 768,
+        "kind": "desktop"
+      },
+      "stepPath": "12",
+      "targetName": "Pantalla después del paso 12",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "7eeeeb32-35bb-4a5b-aaca-789ce6bc614e",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-5",
+        "name": "Escritorio",
+        "width": 1366,
+        "height": 768,
+        "kind": "desktop"
+      },
+      "stepPath": "14",
+      "targetName": "Pantalla después del paso 14",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "ad9a5927-2c81-4020-a7dd-85023e62f1fd",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-6",
+        "name": "Escritorio amplio",
+        "width": 1920,
+        "height": 1080,
+        "kind": "desktop"
+      },
+      "stepPath": "0",
+      "targetName": "Pantalla inicial",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "2d8c1d1a-a2c7-4616-8ae2-7648ed41a2f3",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-6",
+        "name": "Escritorio amplio",
+        "width": 1920,
+        "height": 1080,
+        "kind": "desktop"
+      },
+      "stepPath": "4",
+      "targetName": "Pantalla después del paso 4",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "004d6832-ce30-49c5-8d60-73e9cf8f31ea",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-6",
+        "name": "Escritorio amplio",
+        "width": 1920,
+        "height": 1080,
+        "kind": "desktop"
+      },
+      "stepPath": "6",
+      "targetName": "Pantalla después del paso 6",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "df1dbef3-c6a2-4787-b4db-663629c92505",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-6",
+        "name": "Escritorio amplio",
+        "width": 1920,
+        "height": 1080,
+        "kind": "desktop"
+      },
+      "stepPath": "7",
+      "targetName": "Pantalla después del paso 7",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "e3008970-f77c-4c71-8420-10250cce6f45",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-6",
+        "name": "Escritorio amplio",
+        "width": 1920,
+        "height": 1080,
+        "kind": "desktop"
+      },
+      "stepPath": "12",
+      "targetName": "Pantalla después del paso 12",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "193dd61c-242c-4619-bc2c-951a1aad4939",
+      "findings": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "147.0.7727.15",
+      "profile": {
+        "id": "profile-6",
+        "name": "Escritorio amplio",
+        "width": 1920,
+        "height": 1080,
+        "kind": "desktop"
+      },
+      "stepPath": "14",
+      "targetName": "Pantalla después del paso 14",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "60800fec-dece-40ba-b0da-3d90c3ee634f",
+      "findings": 0
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-0",
+        "name": "Móvil compacto",
+        "width": 360,
+        "height": 800,
+        "kind": "mobile"
+      },
+      "stepPath": "0",
+      "targetName": "Pantalla inicial",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "ff7cd858-37a3-4ca8-90dc-660c3f2a4257",
+      "findings": 0
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-0",
+        "name": "Móvil compacto",
+        "width": 360,
+        "height": 800,
+        "kind": "mobile"
+      },
+      "stepPath": "4",
+      "targetName": "Pantalla después del paso 4",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "5c9e1b49-e21e-41d7-b1e5-928ce493842f",
+      "findings": 2
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-0",
+        "name": "Móvil compacto",
+        "width": 360,
+        "height": 800,
+        "kind": "mobile"
+      },
+      "stepPath": "6",
+      "targetName": "Pantalla después del paso 6",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "021f75e6-a125-4526-a931-275310dbdeb0",
+      "findings": 2
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-0",
+        "name": "Móvil compacto",
+        "width": 360,
+        "height": 800,
+        "kind": "mobile"
+      },
+      "stepPath": "7",
+      "targetName": "Pantalla después del paso 7",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "9d4a82fb-23c6-4c93-b820-a75f236f5834",
+      "findings": 1
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-0",
+        "name": "Móvil compacto",
+        "width": 360,
+        "height": 800,
+        "kind": "mobile"
+      },
+      "stepPath": "12",
+      "targetName": "Pantalla después del paso 12",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "1e9d5ab8-883c-4af0-92a5-c23cd234d3a0",
+      "findings": 2
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-0",
+        "name": "Móvil compacto",
+        "width": 360,
+        "height": 800,
+        "kind": "mobile"
+      },
+      "stepPath": "14",
+      "targetName": "Pantalla después del paso 14",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "02a5a2ee-8b21-4315-be18-ed9676cd5454",
+      "findings": 1
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-1",
+        "name": "Móvil",
+        "width": 390,
+        "height": 844,
+        "kind": "mobile"
+      },
+      "stepPath": "0",
+      "targetName": "Pantalla inicial",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "60609cd9-f630-4dd7-80b3-fbdd16ea2292",
+      "findings": 0
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-1",
+        "name": "Móvil",
+        "width": 390,
+        "height": 844,
+        "kind": "mobile"
+      },
+      "stepPath": "4",
+      "targetName": "Pantalla después del paso 4",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "2156a3e5-86f7-4fbc-9b29-1c57fb1ec830",
+      "findings": 2
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-1",
+        "name": "Móvil",
+        "width": 390,
+        "height": 844,
+        "kind": "mobile"
+      },
+      "stepPath": "6",
+      "targetName": "Pantalla después del paso 6",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "01ca5955-32ff-4ea0-b227-a5de503d1b95",
+      "findings": 2
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-1",
+        "name": "Móvil",
+        "width": 390,
+        "height": 844,
+        "kind": "mobile"
+      },
+      "stepPath": "7",
+      "targetName": "Pantalla después del paso 7",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "8ac4769c-9895-449a-a880-66e2b57834ff",
+      "findings": 1
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-1",
+        "name": "Móvil",
+        "width": 390,
+        "height": 844,
+        "kind": "mobile"
+      },
+      "stepPath": "12",
+      "targetName": "Pantalla después del paso 12",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "a32a2228-f0b2-4037-8887-eea63a4ba780",
+      "findings": 2
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-1",
+        "name": "Móvil",
+        "width": 390,
+        "height": 844,
+        "kind": "mobile"
+      },
+      "stepPath": "14",
+      "targetName": "Pantalla después del paso 14",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "f8d4f7aa-35a7-4278-83a4-ce22e494b907",
+      "findings": 1
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-2",
+        "name": "Móvil horizontal",
+        "width": 844,
+        "height": 390,
+        "kind": "mobile"
+      },
+      "stepPath": "0",
+      "targetName": "Pantalla inicial",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "2c5e4c18-eb9f-4edd-93d4-64e1940bd2fb",
+      "findings": 0
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-2",
+        "name": "Móvil horizontal",
+        "width": 844,
+        "height": 390,
+        "kind": "mobile"
+      },
+      "stepPath": "4",
+      "targetName": "Pantalla después del paso 4",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "5444b96a-e5d4-4382-aa6b-19dfac852cd0",
+      "findings": 2
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-2",
+        "name": "Móvil horizontal",
+        "width": 844,
+        "height": 390,
+        "kind": "mobile"
+      },
+      "stepPath": "6",
+      "targetName": "Pantalla después del paso 6",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "0167cc4e-36ee-4ae7-8568-34f2d18447ab",
+      "findings": 2
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-2",
+        "name": "Móvil horizontal",
+        "width": 844,
+        "height": 390,
+        "kind": "mobile"
+      },
+      "stepPath": "7",
+      "targetName": "Pantalla después del paso 7",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "1cabd043-3b3e-4417-b683-d6c479cf2e9f",
+      "findings": 0
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-2",
+        "name": "Móvil horizontal",
+        "width": 844,
+        "height": 390,
+        "kind": "mobile"
+      },
+      "stepPath": "12",
+      "targetName": "Pantalla después del paso 12",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "9cb59e14-86b7-44c2-b7d5-5df09bbdf18e",
+      "findings": 1
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-2",
+        "name": "Móvil horizontal",
+        "width": 844,
+        "height": 390,
+        "kind": "mobile"
+      },
+      "stepPath": "14",
+      "targetName": "Pantalla después del paso 14",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "46d8d501-c05c-4ae8-a36e-656153030e35",
+      "findings": 0
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-3",
+        "name": "Tablet",
+        "width": 768,
+        "height": 1024,
+        "kind": "tablet"
+      },
+      "stepPath": "0",
+      "targetName": "Pantalla inicial",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "5872b71c-f158-4563-bfbb-42d506a7ece3",
+      "findings": 0
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-3",
+        "name": "Tablet",
+        "width": 768,
+        "height": 1024,
+        "kind": "tablet"
+      },
+      "stepPath": "4",
+      "targetName": "Pantalla después del paso 4",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "307b2ca3-dea7-45b3-a6f9-4149fd31f809",
+      "findings": 5
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-3",
+        "name": "Tablet",
+        "width": 768,
+        "height": 1024,
+        "kind": "tablet"
+      },
+      "stepPath": "6",
+      "targetName": "Pantalla después del paso 6",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "b1f1eba2-4e72-4aa8-a26a-cdf1c5c3d9f7",
+      "findings": 2
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-3",
+        "name": "Tablet",
+        "width": 768,
+        "height": 1024,
+        "kind": "tablet"
+      },
+      "stepPath": "7",
+      "targetName": "Pantalla después del paso 7",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "26662551-e426-4a0b-8441-cc809c763e88",
+      "findings": 1
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-3",
+        "name": "Tablet",
+        "width": 768,
+        "height": 1024,
+        "kind": "tablet"
+      },
+      "stepPath": "12",
+      "targetName": "Pantalla después del paso 12",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "5161e74b-d4d0-4002-bd3f-9ee7d6bb95bc",
+      "findings": 2
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-3",
+        "name": "Tablet",
+        "width": 768,
+        "height": 1024,
+        "kind": "tablet"
+      },
+      "stepPath": "14",
+      "targetName": "Pantalla después del paso 14",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "24652d20-f7f3-4b5b-8a11-582e2f9ecb45",
+      "findings": 1
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-4",
+        "name": "Tablet horizontal",
+        "width": 1024,
+        "height": 768,
+        "kind": "tablet"
+      },
+      "stepPath": "0",
+      "targetName": "Pantalla inicial",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "3ffe7b90-b2ef-46f2-810e-2398cb487b91",
+      "findings": 0
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-4",
+        "name": "Tablet horizontal",
+        "width": 1024,
+        "height": 768,
+        "kind": "tablet"
+      },
+      "stepPath": "4",
+      "targetName": "Pantalla después del paso 4",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "99106f49-99e8-4638-9531-7a66b7cb79e9",
+      "findings": 4
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-4",
+        "name": "Tablet horizontal",
+        "width": 1024,
+        "height": 768,
+        "kind": "tablet"
+      },
+      "stepPath": "6",
+      "targetName": "Pantalla después del paso 6",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "fbd39e34-17d4-4535-83f0-5329b5851fc1",
+      "findings": 2
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-4",
+        "name": "Tablet horizontal",
+        "width": 1024,
+        "height": 768,
+        "kind": "tablet"
+      },
+      "stepPath": "7",
+      "targetName": "Pantalla después del paso 7",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "4f79e04e-cdd9-4e1d-b7a7-0904b3d6abed",
+      "findings": 1
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-4",
+        "name": "Tablet horizontal",
+        "width": 1024,
+        "height": 768,
+        "kind": "tablet"
+      },
+      "stepPath": "12",
+      "targetName": "Pantalla después del paso 12",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "f8cb0c57-2cf3-4442-b23e-2719089cdea1",
+      "findings": 2
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-4",
+        "name": "Tablet horizontal",
+        "width": 1024,
+        "height": 768,
+        "kind": "tablet"
+      },
+      "stepPath": "14",
+      "targetName": "Pantalla después del paso 14",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "6929b859-af1a-4348-8385-7e99cf6f05ae",
+      "findings": 1
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-5",
+        "name": "Escritorio",
+        "width": 1366,
+        "height": 768,
+        "kind": "desktop"
+      },
+      "stepPath": "0",
+      "targetName": "Pantalla inicial",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "a8fc95a6-1f44-4ebe-8e7f-d244b8b7f5a9",
+      "findings": 0
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-5",
+        "name": "Escritorio",
+        "width": 1366,
+        "height": 768,
+        "kind": "desktop"
+      },
+      "stepPath": "4",
+      "targetName": "Pantalla después del paso 4",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "106a60e4-c43c-412f-b316-6ce0c4d8e218",
+      "findings": 0
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-5",
+        "name": "Escritorio",
+        "width": 1366,
+        "height": 768,
+        "kind": "desktop"
+      },
+      "stepPath": "6",
+      "targetName": "Pantalla después del paso 6",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "4ab1e286-6d2e-4464-b491-7310c3ad520c",
+      "findings": 0
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-5",
+        "name": "Escritorio",
+        "width": 1366,
+        "height": 768,
+        "kind": "desktop"
+      },
+      "stepPath": "7",
+      "targetName": "Pantalla después del paso 7",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "fe91684b-4de5-444a-81e7-7d6b855a5247",
+      "findings": 0
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-5",
+        "name": "Escritorio",
+        "width": 1366,
+        "height": 768,
+        "kind": "desktop"
+      },
+      "stepPath": "12",
+      "targetName": "Pantalla después del paso 12",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "053c6dea-c5c4-49a2-af41-9fe5e7b19260",
+      "findings": 0
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-5",
+        "name": "Escritorio",
+        "width": 1366,
+        "height": 768,
+        "kind": "desktop"
+      },
+      "stepPath": "14",
+      "targetName": "Pantalla después del paso 14",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "7f9af812-eac3-41a8-a360-583c727aac6b",
+      "findings": 0
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-6",
+        "name": "Escritorio amplio",
+        "width": 1920,
+        "height": 1080,
+        "kind": "desktop"
+      },
+      "stepPath": "0",
+      "targetName": "Pantalla inicial",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "5c00c129-bfed-4557-9d6a-5cc346b7a071",
+      "findings": 0
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-6",
+        "name": "Escritorio amplio",
+        "width": 1920,
+        "height": 1080,
+        "kind": "desktop"
+      },
+      "stepPath": "4",
+      "targetName": "Pantalla después del paso 4",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "340593f7-baf6-4123-a39b-8d620fa97b92",
+      "findings": 0
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-6",
+        "name": "Escritorio amplio",
+        "width": 1920,
+        "height": 1080,
+        "kind": "desktop"
+      },
+      "stepPath": "6",
+      "targetName": "Pantalla después del paso 6",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "2c6ec5ed-c88e-4311-af56-baf6fe711e2f",
+      "findings": 0
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-6",
+        "name": "Escritorio amplio",
+        "width": 1920,
+        "height": 1080,
+        "kind": "desktop"
+      },
+      "stepPath": "7",
+      "targetName": "Pantalla después del paso 7",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "7a21ad83-04f1-457d-8058-21f586a1f78b",
+      "findings": 0
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-6",
+        "name": "Escritorio amplio",
+        "width": 1920,
+        "height": 1080,
+        "kind": "desktop"
+      },
+      "stepPath": "12",
+      "targetName": "Pantalla después del paso 12",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "ad3f784b-d527-41f7-99cd-bbc325ef98cb",
+      "findings": 0
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "148.0.2",
+      "profile": {
+        "id": "profile-6",
+        "name": "Escritorio amplio",
+        "width": 1920,
+        "height": 1080,
+        "kind": "desktop"
+      },
+      "stepPath": "14",
+      "targetName": "Pantalla después del paso 14",
+      "status": "passed",
+      "comparison": "pending",
+      "screenshot": "96f43f56-a994-438e-b85f-7c8678bf68b9",
+      "findings": 0
+    }
+  ],
+  "findings": [
+    {
+      "browser": "chromium",
+      "profile": {
+        "id": "profile-0",
+        "name": "Móvil compacto",
+        "width": 360,
+        "height": 800,
+        "kind": "mobile"
+      },
+      "stepPath": "4",
+      "rule": "small-touch-target",
+      "element": "#react-burger-menu-btn",
+      "region": {
+        "x": 20,
+        "y": 20,
+        "width": 20,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "chromium",
+      "profile": {
+        "id": "profile-0",
+        "name": "Móvil compacto",
+        "width": 360,
+        "height": 800,
+        "kind": "mobile"
+      },
+      "stepPath": "4",
+      "rule": "small-touch-target",
+      "element": "#item_4_title_link",
+      "region": {
+        "x": 35,
+        "y": 419,
+        "width": 276,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "chromium",
+      "profile": {
+        "id": "profile-1",
+        "name": "Móvil",
+        "width": 390,
+        "height": 844,
+        "kind": "mobile"
+      },
+      "stepPath": "4",
+      "rule": "small-touch-target",
+      "element": "#react-burger-menu-btn",
+      "region": {
+        "x": 20,
+        "y": 20,
+        "width": 20,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "chromium",
+      "profile": {
+        "id": "profile-1",
+        "name": "Móvil",
+        "width": 390,
+        "height": 844,
+        "kind": "mobile"
+      },
+      "stepPath": "4",
+      "rule": "small-touch-target",
+      "element": "#item_4_title_link",
+      "region": {
+        "x": 35,
+        "y": 427,
+        "width": 306,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "chromium",
+      "profile": {
+        "id": "profile-3",
+        "name": "Tablet",
+        "width": 768,
+        "height": 1024,
+        "kind": "tablet"
+      },
+      "stepPath": "4",
+      "rule": "small-touch-target",
+      "element": "#react-burger-menu-btn",
+      "region": {
+        "x": 20,
+        "y": 20,
+        "width": 20,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "chromium",
+      "profile": {
+        "id": "profile-3",
+        "name": "Tablet",
+        "width": 768,
+        "height": 1024,
+        "kind": "tablet"
+      },
+      "stepPath": "4",
+      "rule": "small-touch-target",
+      "element": "#item_4_title_link",
+      "region": {
+        "x": 263,
+        "y": 175,
+        "width": 455,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "chromium",
+      "profile": {
+        "id": "profile-3",
+        "name": "Tablet",
+        "width": 768,
+        "height": 1024,
+        "kind": "tablet"
+      },
+      "stepPath": "4",
+      "rule": "small-touch-target",
+      "element": "#item_0_title_link",
+      "region": {
+        "x": 263,
+        "y": 427,
+        "width": 455,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "chromium",
+      "profile": {
+        "id": "profile-3",
+        "name": "Tablet",
+        "width": 768,
+        "height": 1024,
+        "kind": "tablet"
+      },
+      "stepPath": "4",
+      "rule": "small-touch-target",
+      "element": "#item_1_title_link",
+      "region": {
+        "x": 263,
+        "y": 679,
+        "width": 455,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "chromium",
+      "profile": {
+        "id": "profile-3",
+        "name": "Tablet",
+        "width": 768,
+        "height": 1024,
+        "kind": "tablet"
+      },
+      "stepPath": "4",
+      "rule": "small-touch-target",
+      "element": "#item_5_title_link",
+      "region": {
+        "x": 263,
+        "y": 931,
+        "width": 455,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "chromium",
+      "profile": {
+        "id": "profile-4",
+        "name": "Tablet horizontal",
+        "width": 1024,
+        "height": 768,
+        "kind": "tablet"
+      },
+      "stepPath": "4",
+      "rule": "small-touch-target",
+      "element": "#react-burger-menu-btn",
+      "region": {
+        "x": 20,
+        "y": 20,
+        "width": 20,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "chromium",
+      "profile": {
+        "id": "profile-4",
+        "name": "Tablet horizontal",
+        "width": 1024,
+        "height": 768,
+        "kind": "tablet"
+      },
+      "stepPath": "4",
+      "rule": "small-touch-target",
+      "element": "#item_4_title_link",
+      "region": {
+        "x": 349,
+        "y": 175,
+        "width": 625,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "chromium",
+      "profile": {
+        "id": "profile-4",
+        "name": "Tablet horizontal",
+        "width": 1024,
+        "height": 768,
+        "kind": "tablet"
+      },
+      "stepPath": "4",
+      "rule": "small-touch-target",
+      "element": "#item_0_title_link",
+      "region": {
+        "x": 349,
+        "y": 427,
+        "width": 625,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "chromium",
+      "profile": {
+        "id": "profile-4",
+        "name": "Tablet horizontal",
+        "width": 1024,
+        "height": 768,
+        "kind": "tablet"
+      },
+      "stepPath": "4",
+      "rule": "small-touch-target",
+      "element": "#item_1_title_link",
+      "region": {
+        "x": 349,
+        "y": 679,
+        "width": 625,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-0",
+        "name": "Móvil compacto",
+        "width": 360,
+        "height": 800,
+        "kind": "mobile"
+      },
+      "stepPath": "4",
+      "rule": "small-touch-target",
+      "element": "#react-burger-menu-btn",
+      "region": {
+        "x": 20,
+        "y": 20,
+        "width": 20,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-0",
+        "name": "Móvil compacto",
+        "width": 360,
+        "height": 800,
+        "kind": "mobile"
+      },
+      "stepPath": "4",
+      "rule": "small-touch-target",
+      "element": "#item_4_title_link",
+      "region": {
+        "x": 35,
+        "y": 419,
+        "width": 276,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-0",
+        "name": "Móvil compacto",
+        "width": 360,
+        "height": 800,
+        "kind": "mobile"
+      },
+      "stepPath": "6",
+      "rule": "small-touch-target",
+      "element": "#react-burger-menu-btn",
+      "region": {
+        "x": 20,
+        "y": 20,
+        "width": 20,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-0",
+        "name": "Móvil compacto",
+        "width": 360,
+        "height": 800,
+        "kind": "mobile"
+      },
+      "stepPath": "6",
+      "rule": "small-touch-target",
+      "element": "#item_4_title_link",
+      "region": {
+        "x": 86,
+        "y": 203,
+        "width": 238,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-0",
+        "name": "Móvil compacto",
+        "width": 360,
+        "height": 800,
+        "kind": "mobile"
+      },
+      "stepPath": "7",
+      "rule": "small-touch-target",
+      "element": "#react-burger-menu-btn",
+      "region": {
+        "x": 20,
+        "y": 20,
+        "width": 20,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-0",
+        "name": "Móvil compacto",
+        "width": 360,
+        "height": 800,
+        "kind": "mobile"
+      },
+      "stepPath": "12",
+      "rule": "small-touch-target",
+      "element": "#react-burger-menu-btn",
+      "region": {
+        "x": 20,
+        "y": 20,
+        "width": 20,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-0",
+        "name": "Móvil compacto",
+        "width": 360,
+        "height": 800,
+        "kind": "mobile"
+      },
+      "stepPath": "12",
+      "rule": "small-touch-target",
+      "element": "#item_4_title_link",
+      "region": {
+        "x": 86,
+        "y": 203,
+        "width": 238,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-0",
+        "name": "Móvil compacto",
+        "width": 360,
+        "height": 800,
+        "kind": "mobile"
+      },
+      "stepPath": "14",
+      "rule": "small-touch-target",
+      "element": "#react-burger-menu-btn",
+      "region": {
+        "x": 20,
+        "y": 20,
+        "width": 20,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-1",
+        "name": "Móvil",
+        "width": 390,
+        "height": 844,
+        "kind": "mobile"
+      },
+      "stepPath": "4",
+      "rule": "small-touch-target",
+      "element": "#react-burger-menu-btn",
+      "region": {
+        "x": 20,
+        "y": 20,
+        "width": 20,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-1",
+        "name": "Móvil",
+        "width": 390,
+        "height": 844,
+        "kind": "mobile"
+      },
+      "stepPath": "4",
+      "rule": "small-touch-target",
+      "element": "#item_4_title_link",
+      "region": {
+        "x": 35,
+        "y": 427,
+        "width": 306,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-1",
+        "name": "Móvil",
+        "width": 390,
+        "height": 844,
+        "kind": "mobile"
+      },
+      "stepPath": "6",
+      "rule": "small-touch-target",
+      "element": "#react-burger-menu-btn",
+      "region": {
+        "x": 20,
+        "y": 20,
+        "width": 20,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-1",
+        "name": "Móvil",
+        "width": 390,
+        "height": 844,
+        "kind": "mobile"
+      },
+      "stepPath": "6",
+      "rule": "small-touch-target",
+      "element": "#item_4_title_link",
+      "region": {
+        "x": 86,
+        "y": 203,
+        "width": 268,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-1",
+        "name": "Móvil",
+        "width": 390,
+        "height": 844,
+        "kind": "mobile"
+      },
+      "stepPath": "7",
+      "rule": "small-touch-target",
+      "element": "#react-burger-menu-btn",
+      "region": {
+        "x": 20,
+        "y": 20,
+        "width": 20,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-1",
+        "name": "Móvil",
+        "width": 390,
+        "height": 844,
+        "kind": "mobile"
+      },
+      "stepPath": "12",
+      "rule": "small-touch-target",
+      "element": "#react-burger-menu-btn",
+      "region": {
+        "x": 20,
+        "y": 20,
+        "width": 20,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-1",
+        "name": "Móvil",
+        "width": 390,
+        "height": 844,
+        "kind": "mobile"
+      },
+      "stepPath": "12",
+      "rule": "small-touch-target",
+      "element": "#item_4_title_link",
+      "region": {
+        "x": 86,
+        "y": 203,
+        "width": 268,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-1",
+        "name": "Móvil",
+        "width": 390,
+        "height": 844,
+        "kind": "mobile"
+      },
+      "stepPath": "14",
+      "rule": "small-touch-target",
+      "element": "#react-burger-menu-btn",
+      "region": {
+        "x": 20,
+        "y": 20,
+        "width": 20,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-2",
+        "name": "Móvil horizontal",
+        "width": 844,
+        "height": 390,
+        "kind": "mobile"
+      },
+      "stepPath": "4",
+      "rule": "small-touch-target",
+      "element": "#react-burger-menu-btn",
+      "region": {
+        "x": 20,
+        "y": 20,
+        "width": 20,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-2",
+        "name": "Móvil horizontal",
+        "width": 844,
+        "height": 390,
+        "kind": "mobile"
+      },
+      "stepPath": "4",
+      "rule": "small-touch-target",
+      "element": "#item_4_title_link",
+      "region": {
+        "x": 289,
+        "y": 175,
+        "width": 505,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-2",
+        "name": "Móvil horizontal",
+        "width": 844,
+        "height": 390,
+        "kind": "mobile"
+      },
+      "stepPath": "6",
+      "rule": "small-touch-target",
+      "element": "#react-burger-menu-btn",
+      "region": {
+        "x": 20,
+        "y": 20,
+        "width": 20,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-2",
+        "name": "Móvil horizontal",
+        "width": 844,
+        "height": 390,
+        "kind": "mobile"
+      },
+      "stepPath": "6",
+      "rule": "small-touch-target",
+      "element": "#item_4_title_link",
+      "region": {
+        "x": 90,
+        "y": 199,
+        "width": 718,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-2",
+        "name": "Móvil horizontal",
+        "width": 844,
+        "height": 390,
+        "kind": "mobile"
+      },
+      "stepPath": "12",
+      "rule": "small-touch-target",
+      "element": "#item_4_title_link",
+      "region": {
+        "x": 90,
+        "y": 199,
+        "width": 718,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-3",
+        "name": "Tablet",
+        "width": 768,
+        "height": 1024,
+        "kind": "tablet"
+      },
+      "stepPath": "4",
+      "rule": "small-touch-target",
+      "element": "#react-burger-menu-btn",
+      "region": {
+        "x": 20,
+        "y": 20,
+        "width": 20,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-3",
+        "name": "Tablet",
+        "width": 768,
+        "height": 1024,
+        "kind": "tablet"
+      },
+      "stepPath": "4",
+      "rule": "small-touch-target",
+      "element": "#item_4_title_link",
+      "region": {
+        "x": 263,
+        "y": 175,
+        "width": 455,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-3",
+        "name": "Tablet",
+        "width": 768,
+        "height": 1024,
+        "kind": "tablet"
+      },
+      "stepPath": "4",
+      "rule": "small-touch-target",
+      "element": "#item_0_title_link",
+      "region": {
+        "x": 263,
+        "y": 427,
+        "width": 455,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-3",
+        "name": "Tablet",
+        "width": 768,
+        "height": 1024,
+        "kind": "tablet"
+      },
+      "stepPath": "4",
+      "rule": "small-touch-target",
+      "element": "#item_1_title_link",
+      "region": {
+        "x": 263,
+        "y": 679,
+        "width": 455,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-3",
+        "name": "Tablet",
+        "width": 768,
+        "height": 1024,
+        "kind": "tablet"
+      },
+      "stepPath": "4",
+      "rule": "small-touch-target",
+      "element": "#item_5_title_link",
+      "region": {
+        "x": 263,
+        "y": 931,
+        "width": 455,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-3",
+        "name": "Tablet",
+        "width": 768,
+        "height": 1024,
+        "kind": "tablet"
+      },
+      "stepPath": "6",
+      "rule": "small-touch-target",
+      "element": "#react-burger-menu-btn",
+      "region": {
+        "x": 20,
+        "y": 20,
+        "width": 20,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-3",
+        "name": "Tablet",
+        "width": 768,
+        "height": 1024,
+        "kind": "tablet"
+      },
+      "stepPath": "6",
+      "rule": "small-touch-target",
+      "element": "#item_4_title_link",
+      "region": {
+        "x": 90,
+        "y": 199,
+        "width": 642,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-3",
+        "name": "Tablet",
+        "width": 768,
+        "height": 1024,
+        "kind": "tablet"
+      },
+      "stepPath": "7",
+      "rule": "small-touch-target",
+      "element": "#react-burger-menu-btn",
+      "region": {
+        "x": 20,
+        "y": 20,
+        "width": 20,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-3",
+        "name": "Tablet",
+        "width": 768,
+        "height": 1024,
+        "kind": "tablet"
+      },
+      "stepPath": "12",
+      "rule": "small-touch-target",
+      "element": "#react-burger-menu-btn",
+      "region": {
+        "x": 20,
+        "y": 20,
+        "width": 20,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-3",
+        "name": "Tablet",
+        "width": 768,
+        "height": 1024,
+        "kind": "tablet"
+      },
+      "stepPath": "12",
+      "rule": "small-touch-target",
+      "element": "#item_4_title_link",
+      "region": {
+        "x": 90,
+        "y": 199,
+        "width": 642,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-3",
+        "name": "Tablet",
+        "width": 768,
+        "height": 1024,
+        "kind": "tablet"
+      },
+      "stepPath": "14",
+      "rule": "small-touch-target",
+      "element": "#react-burger-menu-btn",
+      "region": {
+        "x": 20,
+        "y": 20,
+        "width": 20,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-4",
+        "name": "Tablet horizontal",
+        "width": 1024,
+        "height": 768,
+        "kind": "tablet"
+      },
+      "stepPath": "4",
+      "rule": "small-touch-target",
+      "element": "#react-burger-menu-btn",
+      "region": {
+        "x": 20,
+        "y": 20,
+        "width": 20,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-4",
+        "name": "Tablet horizontal",
+        "width": 1024,
+        "height": 768,
+        "kind": "tablet"
+      },
+      "stepPath": "4",
+      "rule": "small-touch-target",
+      "element": "#item_4_title_link",
+      "region": {
+        "x": 349,
+        "y": 175,
+        "width": 625,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-4",
+        "name": "Tablet horizontal",
+        "width": 1024,
+        "height": 768,
+        "kind": "tablet"
+      },
+      "stepPath": "4",
+      "rule": "small-touch-target",
+      "element": "#item_0_title_link",
+      "region": {
+        "x": 349,
+        "y": 427,
+        "width": 625,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-4",
+        "name": "Tablet horizontal",
+        "width": 1024,
+        "height": 768,
+        "kind": "tablet"
+      },
+      "stepPath": "4",
+      "rule": "small-touch-target",
+      "element": "#item_1_title_link",
+      "region": {
+        "x": 349,
+        "y": 679,
+        "width": 625,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-4",
+        "name": "Tablet horizontal",
+        "width": 1024,
+        "height": 768,
+        "kind": "tablet"
+      },
+      "stepPath": "6",
+      "rule": "small-touch-target",
+      "element": "#react-burger-menu-btn",
+      "region": {
+        "x": 20,
+        "y": 20,
+        "width": 20,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-4",
+        "name": "Tablet horizontal",
+        "width": 1024,
+        "height": 768,
+        "kind": "tablet"
+      },
+      "stepPath": "6",
+      "rule": "small-touch-target",
+      "element": "#item_4_title_link",
+      "region": {
+        "x": 90,
+        "y": 199,
+        "width": 898,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-4",
+        "name": "Tablet horizontal",
+        "width": 1024,
+        "height": 768,
+        "kind": "tablet"
+      },
+      "stepPath": "7",
+      "rule": "small-touch-target",
+      "element": "#react-burger-menu-btn",
+      "region": {
+        "x": 20,
+        "y": 20,
+        "width": 20,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-4",
+        "name": "Tablet horizontal",
+        "width": 1024,
+        "height": 768,
+        "kind": "tablet"
+      },
+      "stepPath": "12",
+      "rule": "small-touch-target",
+      "element": "#react-burger-menu-btn",
+      "region": {
+        "x": 20,
+        "y": 20,
+        "width": 20,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-4",
+        "name": "Tablet horizontal",
+        "width": 1024,
+        "height": 768,
+        "kind": "tablet"
+      },
+      "stepPath": "12",
+      "rule": "small-touch-target",
+      "element": "#item_4_title_link",
+      "region": {
+        "x": 90,
+        "y": 199,
+        "width": 898,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    },
+    {
+      "browser": "firefox",
+      "profile": {
+        "id": "profile-4",
+        "name": "Tablet horizontal",
+        "width": 1024,
+        "height": 768,
+        "kind": "tablet"
+      },
+      "stepPath": "14",
+      "rule": "small-touch-target",
+      "element": "#react-burger-menu-btn",
+      "region": {
+        "x": 20,
+        "y": 20,
+        "width": 20,
+        "height": 20
+      },
+      "classification": "possible",
+      "message": "El control tiene una zona táctil reducida."
+    }
+  ],
+  "lighthouse": [
+    {
+      "targetName": "Pantalla inicial",
+      "targetId": "test-63-row-1:point-0",
+      "mode": "mobile",
+      "status": "completed",
+      "categories": {
+        "performance": {
+          "median": 92,
+          "min": 91,
+          "max": 92,
+          "samples": 3
+        },
+        "accessibility": {
+          "median": 100,
+          "min": 100,
+          "max": 100,
+          "samples": 3
+        },
+        "best-practices": {
+          "median": 81,
+          "min": 81,
+          "max": 81,
+          "samples": 3
+        },
+        "seo": {
+          "median": 63,
+          "min": 63,
+          "max": 63,
+          "samples": 3
+        }
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "median": 2336.0554,
+          "min": 2282.0292,
+          "max": 2389.8990999999996,
+          "samples": 3
+        },
+        "largest-contentful-paint": {
+          "median": 2999.4384999999997,
+          "min": 2902.4306,
+          "max": 3020.5137999999997,
+          "samples": 3
+        },
+        "speed-index": {
+          "median": 2336.0554,
+          "min": 2282.0292,
+          "max": 2389.8990999999996,
+          "samples": 3
+        },
+        "total-blocking-time": {
+          "median": 14,
+          "min": 0,
+          "max": 54,
+          "samples": 3
+        },
+        "cumulative-layout-shift": {
+          "median": 0.004282,
+          "min": 0.004282,
+          "max": 0.004282,
+          "samples": 3
+        }
+      },
+      "completedRuns": 3,
+      "expectedRuns": 3,
+      "runs": [
+        {
+          "iteration": 1,
+          "status": "completed",
+          "fetchTime": "2026-10-15T18:01:07.974Z",
+          "version": "13.5.0",
+          "finalUrl": "https://www.saucedemo.com/",
+          "auditMode": "navigation",
+          "warnings": [
+            "Se conserva la sesión preparada y se limpia la caché del navegador antes de medir la carga."
+          ],
+          "categories": {
+            "performance": 91,
+            "accessibility": 100,
+            "best-practices": 81,
+            "seo": 63
+          },
+          "metrics": {
+            "first-contentful-paint": 2389.8990999999996,
+            "largest-contentful-paint": 2999.4384999999997,
+            "speed-index": 2389.8990999999996,
+            "total-blocking-time": 14,
+            "cumulative-layout-shift": 0.004282
+          },
+          "findings": [
+            {
+              "id": "first-contentful-paint",
+              "title": "First Contentful Paint",
+              "score": 0.71,
+              "value": "2,4 s"
+            },
+            {
+              "id": "largest-contentful-paint",
+              "title": "Renderizado del mayor elemento con contenido",
+              "score": 0.78,
+              "value": "3,0 s"
+            },
+            {
+              "id": "speed-index",
+              "title": "Speed Index",
+              "score": 0.98,
+              "value": "2,4 s"
+            },
+            {
+              "id": "interactive",
+              "title": "Tiempo necesario para interactuar",
+              "score": 0.96,
+              "value": "3,0 s"
+            },
+            {
+              "id": "deprecations",
+              "title": "Usa API obsoletas",
+              "score": 0,
+              "value": "Se ha encontrado 1 advertencia"
+            },
+            {
+              "id": "valid-source-maps",
+              "title": "No hay mapas de origen para JavaScript propio de gran tamaño",
+              "score": 0,
+              "value": ""
+            },
+            {
+              "id": "unused-javascript",
+              "title": "Reduce el contenido JavaScript que no se use",
+              "score": 0,
+              "value": "Ahorro estimado de 105 KiB"
+            },
+            {
+              "id": "is-crawlable",
+              "title": "Se ha bloqueado la indexación de la página",
+              "score": 0,
+              "value": ""
+            },
+            {
+              "id": "cache-insight",
+              "title": "Usar tiempos de vida de caché eficientes",
+              "score": 0,
+              "value": "Ahorro estimado de 169 KiB"
+            },
+            {
+              "id": "font-display-insight",
+              "title": "Visualización de fuentes",
+              "score": 0,
+              "value": "Ahorro estimado de 70 ms"
+            },
+            {
+              "id": "network-dependency-tree-insight",
+              "title": "Árbol de dependencia de red",
+              "score": 0,
+              "value": ""
+            },
+            {
+              "id": "render-blocking-insight",
+              "title": "Solicitudes que bloquean el renderizado",
+              "score": 0,
+              "value": "Ahorro estimado de 600 ms"
+            }
+          ],
+          "htmlArtifactId": "91cec2eb-cca2-4b2f-8754-49af5b90b60b",
+          "jsonArtifactId": "b34cc0c1-3b2b-4084-a302-49e5a2359ebb"
+        },
+        {
+          "iteration": 2,
+          "status": "completed",
+          "fetchTime": "2026-10-15T18:01:22.521Z",
+          "version": "13.5.0",
+          "finalUrl": "https://www.saucedemo.com/",
+          "auditMode": "navigation",
+          "warnings": [
+            "Se conserva la sesión preparada y se limpia la caché del navegador antes de medir la carga."
+          ],
+          "categories": {
+            "performance": 92,
+            "accessibility": 100,
+            "best-practices": 81,
+            "seo": 63
+          },
+          "metrics": {
+            "first-contentful-paint": 2336.0554,
+            "largest-contentful-paint": 2902.4306,
+            "speed-index": 2336.0554,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0.004282
+          },
+          "findings": [
+            {
+              "id": "first-contentful-paint",
+              "title": "First Contentful Paint",
+              "score": 0.73,
+              "value": "2,3 s"
+            },
+            {
+              "id": "largest-contentful-paint",
+              "title": "Renderizado del mayor elemento con contenido",
+              "score": 0.8,
+              "value": "2,9 s"
+            },
+            {
+              "id": "speed-index",
+              "title": "Speed Index",
+              "score": 0.98,
+              "value": "2,3 s"
+            },
+            {
+              "id": "interactive",
+              "title": "Tiempo necesario para interactuar",
+              "score": 0.96,
+              "value": "2,9 s"
+            },
+            {
+              "id": "deprecations",
+              "title": "Usa API obsoletas",
+              "score": 0,
+              "value": "Se ha encontrado 1 advertencia"
+            },
+            {
+              "id": "valid-source-maps",
+              "title": "No hay mapas de origen para JavaScript propio de gran tamaño",
+              "score": 0,
+              "value": ""
+            },
+            {
+              "id": "unused-javascript",
+              "title": "Reduce el contenido JavaScript que no se use",
+              "score": 0,
+              "value": "Ahorro estimado de 96 KiB"
+            },
+            {
+              "id": "is-crawlable",
+              "title": "Se ha bloqueado la indexación de la página",
+              "score": 0,
+              "value": ""
+            },
+            {
+              "id": "cache-insight",
+              "title": "Usar tiempos de vida de caché eficientes",
+              "score": 0,
+              "value": "Ahorro estimado de 169 KiB"
+            },
+            {
+              "id": "font-display-insight",
+              "title": "Visualización de fuentes",
+              "score": 0,
+              "value": "Ahorro estimado de 60 ms"
+            },
+            {
+              "id": "network-dependency-tree-insight",
+              "title": "Árbol de dependencia de red",
+              "score": 0,
+              "value": ""
+            },
+            {
+              "id": "render-blocking-insight",
+              "title": "Solicitudes que bloquean el renderizado",
+              "score": 0,
+              "value": "Ahorro estimado de 600 ms"
+            }
+          ],
+          "htmlArtifactId": "c7168ffc-8c51-4545-aee0-b1bf71cb41f1",
+          "jsonArtifactId": "cc225e20-40c2-4f4c-ab6e-7c258ce59ee0"
+        },
+        {
+          "iteration": 3,
+          "status": "completed",
+          "fetchTime": "2026-10-15T18:01:34.249Z",
+          "version": "13.5.0",
+          "finalUrl": "https://www.saucedemo.com/",
+          "auditMode": "navigation",
+          "warnings": [
+            "Se conserva la sesión preparada y se limpia la caché del navegador antes de medir la carga."
+          ],
+          "categories": {
+            "performance": 92,
+            "accessibility": 100,
+            "best-practices": 81,
+            "seo": 63
+          },
+          "metrics": {
+            "first-contentful-paint": 2282.0292,
+            "largest-contentful-paint": 3020.5137999999997,
+            "speed-index": 2282.0292,
+            "total-blocking-time": 54,
+            "cumulative-layout-shift": 0.004282
+          },
+          "findings": [
+            {
+              "id": "first-contentful-paint",
+              "title": "First Contentful Paint",
+              "score": 0.75,
+              "value": "2,3 s"
+            },
+            {
+              "id": "largest-contentful-paint",
+              "title": "Renderizado del mayor elemento con contenido",
+              "score": 0.77,
+              "value": "3,0 s"
+            },
+            {
+              "id": "speed-index",
+              "title": "Speed Index",
+              "score": 0.99,
+              "value": "2,3 s"
+            },
+            {
+              "id": "max-potential-fid",
+              "title": "Latencia potencial máxima de la primera interacción",
+              "score": 0.97,
+              "value": "100 ms"
+            },
+            {
+              "id": "interactive",
+              "title": "Tiempo necesario para interactuar",
+              "score": 0.96,
+              "value": "3,0 s"
+            },
+            {
+              "id": "deprecations",
+              "title": "Usa API obsoletas",
+              "score": 0,
+              "value": "Se ha encontrado 1 advertencia"
+            },
+            {
+              "id": "valid-source-maps",
+              "title": "No hay mapas de origen para JavaScript propio de gran tamaño",
+              "score": 0,
+              "value": ""
+            },
+            {
+              "id": "unused-javascript",
+              "title": "Reduce el contenido JavaScript que no se use",
+              "score": 0,
+              "value": "Ahorro estimado de 92 KiB"
+            },
+            {
+              "id": "is-crawlable",
+              "title": "Se ha bloqueado la indexación de la página",
+              "score": 0,
+              "value": ""
+            },
+            {
+              "id": "cache-insight",
+              "title": "Usar tiempos de vida de caché eficientes",
+              "score": 0,
+              "value": "Ahorro estimado de 169 KiB"
+            },
+            {
+              "id": "font-display-insight",
+              "title": "Visualización de fuentes",
+              "score": 0,
+              "value": "Ahorro estimado de 50 ms"
+            },
+            {
+              "id": "network-dependency-tree-insight",
+              "title": "Árbol de dependencia de red",
+              "score": 0,
+              "value": ""
+            },
+            {
+              "id": "render-blocking-insight",
+              "title": "Solicitudes que bloquean el renderizado",
+              "score": 0,
+              "value": "Ahorro estimado de 600 ms"
+            }
+          ],
+          "htmlArtifactId": "3c673c2c-f776-4c7a-9dda-b1fdaf896af3",
+          "jsonArtifactId": "ef1094e6-11c5-4720-a282-15eabbc01d23"
+        }
+      ]
+    }
+  ],
+  "lighthousePlan": [
+    {
+      "scenarioId": "test-63-row-1",
+      "scenarioName": "Completion and confirmation of demo purchase · fila 1",
+      "targets": [
+        {
+          "targetId": "test-63-row-1:point-0",
+          "checkpoint": 0,
+          "targetName": "Pantalla inicial",
+          "reasons": [
+            "initial"
+          ],
+          "auditMode": "navigation"
+        },
+        {
+          "targetId": "test-63-row-1:point-4",
+          "checkpoint": 4,
+          "targetName": "Pantalla después del paso 4",
+          "reasons": [
+            "navigation",
+            "recorded-check"
+          ],
+          "auditMode": "navigation"
+        },
+        {
+          "targetId": "test-63-row-1:point-6",
+          "checkpoint": 6,
+          "targetName": "Pantalla después del paso 6",
+          "reasons": [
+            "navigation"
+          ],
+          "auditMode": "navigation"
+        },
+        {
+          "targetId": "test-63-row-1:point-7",
+          "checkpoint": 7,
+          "targetName": "Pantalla después del paso 7",
+          "reasons": [
+            "navigation"
+          ],
+          "auditMode": "navigation"
+        },
+        {
+          "targetId": "test-63-row-1:point-12",
+          "checkpoint": 12,
+          "targetName": "Pantalla después del paso 12",
+          "reasons": [
+            "navigation",
+            "recorded-check"
+          ],
+          "auditMode": "navigation"
+        },
+        {
+          "targetId": "test-63-row-1:point-14",
+          "checkpoint": 14,
+          "targetName": "Pantalla después del paso 14",
+          "reasons": [
+            "navigation",
+            "recorded-check",
+            "final"
+          ],
+          "auditMode": "navigation"
+        }
+      ],
+      "status": "ready"
+    }
+  ],
+  "interactions": [
+    {
+      "scenarioName": "Completion and confirmation of demo purchase · fila 1",
+      "mode": "mobile",
+      "status": "completed",
+      "completedRuns": 3,
+      "expectedRuns": 3,
+      "environment": {
+        "browser": "chromium",
+        "browserVersion": "147.0.7727.15",
+        "viewport": {
+          "width": 412,
+          "height": 823
+        },
+        "isMobile": true,
+        "hasTouch": true,
+        "deviceScaleFactor": 1,
+        "throttling": "none",
+        "contextIsolation": "new-context-per-sample",
+        "clock": "monotonic",
+        "network": "protected-proxy"
+      },
+      "steps": [
+        {
+          "stepPath": "1",
+          "action": "fill",
+          "sampleCount": 3,
+          "attemptedSampleCount": 3,
+          "expectedSamples": 3,
+          "validationSampleCount": 0,
+          "failedSampleCount": 0,
+          "durationMs": {
+            "median": 139.178,
+            "min": 115.466,
+            "max": 144.683,
+            "samples": 3
+          },
+          "untilValidationMs": null,
+          "validationStepPaths": [],
+          "validationStatus": "not_recorded"
+        },
+        {
+          "stepPath": "2",
+          "action": "fill",
+          "sampleCount": 3,
+          "attemptedSampleCount": 3,
+          "expectedSamples": 3,
+          "validationSampleCount": 0,
+          "failedSampleCount": 0,
+          "durationMs": {
+            "median": 64.529,
+            "min": 63.058,
+            "max": 79.292,
+            "samples": 3
+          },
+          "untilValidationMs": null,
+          "validationStepPaths": [],
+          "validationStatus": "not_recorded"
+        },
+        {
+          "stepPath": "3",
+          "action": "click",
+          "sampleCount": 3,
+          "attemptedSampleCount": 3,
+          "expectedSamples": 3,
+          "validationSampleCount": 3,
+          "failedSampleCount": 0,
+          "durationMs": {
+            "median": 120.79,
+            "min": 77.029,
+            "max": 127.782,
+            "samples": 3
+          },
+          "untilValidationMs": {
+            "median": 152.815,
+            "min": 151.669,
+            "max": 236.379,
+            "samples": 3
+          },
+          "validationStepPaths": [
+            "4"
+          ],
+          "validationStatus": "verified"
+        },
+        {
+          "stepPath": "5",
+          "action": "click",
+          "sampleCount": 3,
+          "attemptedSampleCount": 3,
+          "expectedSamples": 3,
+          "validationSampleCount": 0,
+          "failedSampleCount": 0,
+          "durationMs": {
+            "median": 180.769,
+            "min": 168.728,
+            "max": 196.191,
+            "samples": 3
+          },
+          "untilValidationMs": null,
+          "validationStepPaths": [],
+          "validationStatus": "not_recorded"
+        },
+        {
+          "stepPath": "6",
+          "action": "click",
+          "sampleCount": 3,
+          "attemptedSampleCount": 3,
+          "expectedSamples": 3,
+          "validationSampleCount": 0,
+          "failedSampleCount": 0,
+          "durationMs": {
+            "median": 151.828,
+            "min": 137.456,
+            "max": 180.342,
+            "samples": 3
+          },
+          "untilValidationMs": null,
+          "validationStepPaths": [],
+          "validationStatus": "not_recorded"
+        },
+        {
+          "stepPath": "7",
+          "action": "click",
+          "sampleCount": 3,
+          "attemptedSampleCount": 3,
+          "expectedSamples": 3,
+          "validationSampleCount": 0,
+          "failedSampleCount": 0,
+          "durationMs": {
+            "median": 160.906,
+            "min": 153.903,
+            "max": 196.72,
+            "samples": 3
+          },
+          "untilValidationMs": null,
+          "validationStepPaths": [],
+          "validationStatus": "not_recorded"
+        },
+        {
+          "stepPath": "8",
+          "action": "fill",
+          "sampleCount": 3,
+          "attemptedSampleCount": 3,
+          "expectedSamples": 3,
+          "validationSampleCount": 0,
+          "failedSampleCount": 0,
+          "durationMs": {
+            "median": 72.442,
+            "min": 65.551,
+            "max": 79.142,
+            "samples": 3
+          },
+          "untilValidationMs": null,
+          "validationStepPaths": [],
+          "validationStatus": "not_recorded"
+        },
+        {
+          "stepPath": "9",
+          "action": "fill",
+          "sampleCount": 3,
+          "attemptedSampleCount": 3,
+          "expectedSamples": 3,
+          "validationSampleCount": 0,
+          "failedSampleCount": 0,
+          "durationMs": {
+            "median": 78.011,
+            "min": 48.093,
+            "max": 93.644,
+            "samples": 3
+          },
+          "untilValidationMs": null,
+          "validationStepPaths": [],
+          "validationStatus": "not_recorded"
+        },
+        {
+          "stepPath": "10",
+          "action": "fill",
+          "sampleCount": 3,
+          "attemptedSampleCount": 3,
+          "expectedSamples": 3,
+          "validationSampleCount": 0,
+          "failedSampleCount": 0,
+          "durationMs": {
+            "median": 92.068,
+            "min": 90.922,
+            "max": 97.611,
+            "samples": 3
+          },
+          "untilValidationMs": null,
+          "validationStepPaths": [],
+          "validationStatus": "not_recorded"
+        },
+        {
+          "stepPath": "11",
+          "action": "click",
+          "sampleCount": 3,
+          "attemptedSampleCount": 3,
+          "expectedSamples": 3,
+          "validationSampleCount": 3,
+          "failedSampleCount": 0,
+          "durationMs": {
+            "median": 185.316,
+            "min": 142.756,
+            "max": 185.429,
+            "samples": 3
+          },
+          "untilValidationMs": {
+            "median": 216.282,
+            "min": 174.62,
+            "max": 218.227,
+            "samples": 3
+          },
+          "validationStepPaths": [
+            "12"
+          ],
+          "validationStatus": "verified"
+        },
+        {
+          "stepPath": "13",
+          "action": "click",
+          "sampleCount": 3,
+          "attemptedSampleCount": 3,
+          "expectedSamples": 3,
+          "validationSampleCount": 3,
+          "failedSampleCount": 0,
+          "durationMs": {
+            "median": 138.934,
+            "min": 117.909,
+            "max": 143.468,
+            "samples": 3
+          },
+          "untilValidationMs": {
+            "median": 149.993,
+            "min": 142.868,
+            "max": 151.825,
+            "samples": 3
+          },
+          "validationStepPaths": [
+            "14"
+          ],
+          "validationStatus": "verified"
+        }
+      ]
+    },
+    {
+      "scenarioName": "Completion and confirmation of demo purchase · fila 1",
+      "mode": "desktop",
+      "status": "completed",
+      "completedRuns": 3,
+      "expectedRuns": 3,
+      "environment": {
+        "browser": "chromium",
+        "browserVersion": "147.0.7727.15",
+        "viewport": {
+          "width": 1350,
+          "height": 940
+        },
+        "isMobile": false,
+        "hasTouch": false,
+        "deviceScaleFactor": 1,
+        "throttling": "none",
+        "contextIsolation": "new-context-per-sample",
+        "clock": "monotonic",
+        "network": "protected-proxy"
+      },
+      "steps": [
+        {
+          "stepPath": "1",
+          "action": "fill",
+          "sampleCount": 3,
+          "attemptedSampleCount": 3,
+          "expectedSamples": 3,
+          "validationSampleCount": 0,
+          "failedSampleCount": 0,
+          "durationMs": {
+            "median": 113.743,
+            "min": 112.698,
+            "max": 142.547,
+            "samples": 3
+          },
+          "untilValidationMs": null,
+          "validationStepPaths": [],
+          "validationStatus": "not_recorded"
+        },
+        {
+          "stepPath": "2",
+          "action": "fill",
+          "sampleCount": 3,
+          "attemptedSampleCount": 3,
+          "expectedSamples": 3,
+          "validationSampleCount": 0,
+          "failedSampleCount": 0,
+          "durationMs": {
+            "median": 76.249,
+            "min": 51.186,
+            "max": 78.759,
+            "samples": 3
+          },
+          "untilValidationMs": null,
+          "validationStepPaths": [],
+          "validationStatus": "not_recorded"
+        },
+        {
+          "stepPath": "3",
+          "action": "click",
+          "sampleCount": 3,
+          "attemptedSampleCount": 3,
+          "expectedSamples": 3,
+          "validationSampleCount": 3,
+          "failedSampleCount": 0,
+          "durationMs": {
+            "median": 122.051,
+            "min": 76.028,
+            "max": 148.88,
+            "samples": 3
+          },
+          "untilValidationMs": {
+            "median": 189.673,
+            "min": 141.83,
+            "max": 192.365,
+            "samples": 3
+          },
+          "validationStepPaths": [
+            "4"
+          ],
+          "validationStatus": "verified"
+        },
+        {
+          "stepPath": "5",
+          "action": "click",
+          "sampleCount": 3,
+          "attemptedSampleCount": 3,
+          "expectedSamples": 3,
+          "validationSampleCount": 0,
+          "failedSampleCount": 0,
+          "durationMs": {
+            "median": 153.329,
+            "min": 108.092,
+            "max": 179.893,
+            "samples": 3
+          },
+          "untilValidationMs": null,
+          "validationStepPaths": [],
+          "validationStatus": "not_recorded"
+        },
+        {
+          "stepPath": "6",
+          "action": "click",
+          "sampleCount": 3,
+          "attemptedSampleCount": 3,
+          "expectedSamples": 3,
+          "validationSampleCount": 0,
+          "failedSampleCount": 0,
+          "durationMs": {
+            "median": 162.471,
+            "min": 136.347,
+            "max": 170.126,
+            "samples": 3
+          },
+          "untilValidationMs": null,
+          "validationStepPaths": [],
+          "validationStatus": "not_recorded"
+        },
+        {
+          "stepPath": "7",
+          "action": "click",
+          "sampleCount": 3,
+          "attemptedSampleCount": 3,
+          "expectedSamples": 3,
+          "validationSampleCount": 0,
+          "failedSampleCount": 0,
+          "durationMs": {
+            "median": 163.033,
+            "min": 128.909,
+            "max": 166.624,
+            "samples": 3
+          },
+          "untilValidationMs": null,
+          "validationStepPaths": [],
+          "validationStatus": "not_recorded"
+        },
+        {
+          "stepPath": "8",
+          "action": "fill",
+          "sampleCount": 3,
+          "attemptedSampleCount": 3,
+          "expectedSamples": 3,
+          "validationSampleCount": 0,
+          "failedSampleCount": 0,
+          "durationMs": {
+            "median": 86.901,
+            "min": 77.648,
+            "max": 94.109,
+            "samples": 3
+          },
+          "untilValidationMs": null,
+          "validationStepPaths": [],
+          "validationStatus": "not_recorded"
+        },
+        {
+          "stepPath": "9",
+          "action": "fill",
+          "sampleCount": 3,
+          "attemptedSampleCount": 3,
+          "expectedSamples": 3,
+          "validationSampleCount": 0,
+          "failedSampleCount": 0,
+          "durationMs": {
+            "median": 80.188,
+            "min": 73.469,
+            "max": 101.331,
+            "samples": 3
+          },
+          "untilValidationMs": null,
+          "validationStepPaths": [],
+          "validationStatus": "not_recorded"
+        },
+        {
+          "stepPath": "10",
+          "action": "fill",
+          "sampleCount": 3,
+          "attemptedSampleCount": 3,
+          "expectedSamples": 3,
+          "validationSampleCount": 0,
+          "failedSampleCount": 0,
+          "durationMs": {
+            "median": 95.801,
+            "min": 67.095,
+            "max": 102.035,
+            "samples": 3
+          },
+          "untilValidationMs": null,
+          "validationStepPaths": [],
+          "validationStatus": "not_recorded"
+        },
+        {
+          "stepPath": "11",
+          "action": "click",
+          "sampleCount": 3,
+          "attemptedSampleCount": 3,
+          "expectedSamples": 3,
+          "validationSampleCount": 3,
+          "failedSampleCount": 0,
+          "durationMs": {
+            "median": 174.691,
+            "min": 169.538,
+            "max": 204.842,
+            "samples": 3
+          },
+          "untilValidationMs": {
+            "median": 200.667,
+            "min": 181.656,
+            "max": 235.346,
+            "samples": 3
+          },
+          "validationStepPaths": [
+            "12"
+          ],
+          "validationStatus": "verified"
+        },
+        {
+          "stepPath": "13",
+          "action": "click",
+          "sampleCount": 3,
+          "attemptedSampleCount": 3,
+          "expectedSamples": 3,
+          "validationSampleCount": 3,
+          "failedSampleCount": 0,
+          "durationMs": {
+            "median": 137.407,
+            "min": 134.719,
+            "max": 152.897,
+            "samples": 3
+          },
+          "untilValidationMs": {
+            "median": 155.902,
+            "min": 149.327,
+            "max": 169.237,
+            "samples": 3
+          },
+          "validationStepPaths": [
+            "14"
+          ],
+          "validationStatus": "verified"
+        }
+      ]
+    }
+  ]
+}

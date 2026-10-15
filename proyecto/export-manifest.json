@@ -1,0 +1,22 @@
+{
+  "profile": "java11-gradle8-pom",
+  "versions": {
+    "java": "11",
+    "gradle": "8.0",
+    "selenium": "4.41.0",
+    "cucumber": "7.20.1",
+    "junit": "4.13.2",
+    "poi": "5.5.1"
+  },
+  "scenarios": [
+    "Completion and confirmation of demo purchase",
+    "Access blocked for locked out account",
+    "Cancellation on first checkout information form"
+  ],
+  "executed": false,
+  "secretEnvironmentVariables": [
+    "QA_SECRET_62D5143C073BA4",
+    "QA_SECRET_7A671596D595E5",
+    "QA_SECRET_3E30E33E19D81A"
+  ]
+}

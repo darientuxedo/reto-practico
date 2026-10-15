@@ -1,0 +1,29 @@
+{
+  "verifiedAt": "2026-10-15T19:08:39.023Z",
+  "folder": "lighthouse-completo",
+  "status": "partial",
+  "nativeArtifactHashesVerified": 58,
+  "filesScanned": 62,
+  "linksVerified": 59,
+  "privacyFindings": [],
+  "errorAudits": [
+    {
+      "id": "lcp-breakdown-insight",
+      "occurrences": 23,
+      "message": "no navigation metrics",
+      "performanceWeight": 0
+    },
+    {
+      "id": "lcp-discovery-insight",
+      "occurrences": 23,
+      "message": "no navigation metrics",
+      "performanceWeight": 0
+    }
+  ],
+  "reportsWithInsightErrors": 23,
+  "validLcpWithInsightErrors": 23,
+  "scoresErrorsAndDatesPreserved": true,
+  "nativeLocalPathsRedacted": true,
+  "originalBackupUnchanged": true,
+  "screenshotAndContentLimitation": "Native reports can show public demo page content; this is not an audit for arbitrary sensitive data."
+}

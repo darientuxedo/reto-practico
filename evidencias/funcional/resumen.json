@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "candidate": "Kevin Alzate",
+  "status": "passed",
+  "executionDate": "2026-10-15",
+  "target": "https://www.saucedemo.com/",
+  "scope": "Three recorded functional flows and twelve offline contract tests; not a security or universal compatibility certification.",
+  "runtime": {
+    "java": "11.0.32.1+12-LTS",
+    "javaDistribution": "Amazon Corretto 11.0.32.12.1",
+    "gradle": "8.0",
+    "selenium": "4.41.0",
+    "cucumber": "7.20.1",
+    "junit": "4.13.2",
+    "poi": "5.5.1",
+    "operatingSystem": "Windows",
+    "javaSelection": "Explicit JDK 11 for the test process; global Java configuration unchanged."
+  },
+  "browsersExecuted": [
+    {
+      "name": "Chrome",
+      "version": "154.0.8037.59",
+      "headless": true,
+      "scenariosPassed": 3,
+      "driverProtocol": "WebDriver",
+      "sessionIsolation": "New browser session for each scenario"
+    }
+  ],
+  "fullSuite": {
+    "tests": 15,
+    "passed": 15,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "functionalTests": 3,
+    "unitTests": 12,
+    "gradleBuildDurationSeconds": 51,
+    "command": ".\\run-tests.ps1 -JavaHome '<JDK-11>' -Browser chrome",
+    "credentialSource": "Process environment variables; values not included in the reports.",
+    "report": "gradle/index.html",
+    "junitDirectory": "junit",
+    "cucumberReport": "cucumber.html"
+  },
+  "testcases": [
+    {
+      "id": "POS-001",
+      "name": "Completion and confirmation of demo purchase",
+      "status": "passed",
+      "startedAt": "2026-10-15T18:17:20.473Z",
+      "durationSeconds": 11.812,
+      "durationSource": "Gradle JUnit testcase time",
+      "feature": "src/test/resources/features/scenario-1.feature",
+      "checks": ["Catalog and overview screens", "Confirmation route", "Exact purchase confirmation message"]
+    },
+    {
+      "id": "NEG-001",
+      "name": "Access blocked for locked out account",
+      "status": "passed",
+      "startedAt": "2026-10-15T18:17:32.154Z",
+      "durationSeconds": 6.05,
+      "durationSource": "Gradle JUnit testcase time",
+      "feature": "src/test/resources/features/scenario-2.feature",
+      "checks": ["Exact lock rejection message", "Login route and visible login button", "Catalog absent"]
+    },
+    {
+      "id": "ALT-001",
+      "name": "Cancellation on first checkout information form",
+      "status": "passed",
+      "startedAt": "2026-10-15T18:17:38.194Z",
+      "durationSeconds": 7.233,
+      "durationSource": "Gradle JUnit testcase time",
+      "feature": "src/test/resources/features/scenario-3.feature",
+      "checks": ["Checkout information screen before cancellation", "Return to cart route and title", "Product, exact price and quantity in the same item row"]
+    }
+  ],
+  "unitTestCount": 12,
+  "unitTestClasses": [
+    { "name": "com.ultimate.qa.pages.RecordedPageTest", "tests": 5, "passed": 5 },
+    { "name": "com.ultimate.qa.support.TestDataTest", "tests": 5, "passed": 5 },
+    { "name": "com.ultimate.qa.support.DataValuesTest", "tests": 2, "passed": 2 }
+  ],
+  "postFormattingVerification": {
+    "changes": "Explicit imports and mechanical Google Java Format 1.22.0 formatting; no changed selector expressions or business assertions.",
+    "tests": 12,
+    "passed": 12,
+    "failed": 0,
+    "compilation": "passed with JDK 11",
+    "gradleBuildDurationSeconds": 23,
+    "command": ".\\run-tests.ps1 -JavaHome '<JDK-11>' -UnitOnly",
+    "report": "post-format-unit/gradle/index.html",
+    "junitDirectory": "post-format-unit/junit",
+    "functionalScenariosRepeated": false
+  },
+  "corrections": [
+    "Checks confirm destination screen and URL, not only a matching text anywhere.",
+    "Locked-account flow verifies that the login remains and the catalog is not displayed.",
+    "Cancellation verifies the cart destination and the product-specific row before quantity and price assertions.",
+    "Qualified Excel references must match the selected sheet; invalid identifiers, formulas and error cells fail explicitly.",
+    "Malformed or missing secret references fail without printing their values.",
+    "Strict selector uniqueness and conflicting-fallback rejection are covered by offline tests.",
+    "Meaningful method names, shared page objects, explicit imports and consistent formatting replace generated boilerplate.",
+    "The Windows launcher selects JDK 11 locally and restores the process environment; README documents execution and limitations."
+  ],
+  "dataIntegrity": {
+    "workbook": "src/test/resources/data/test-data.xlsx",
+    "sha256": "7A7739EE534CD10AA1A000C56EC67E9E065A351C05EB5B291B541986F9F66E09",
+    "unchangedFromOriginalExport": true,
+    "originalZipModified": false,
+    "excelValuesCopiedIntoExamples": false
+  },
+  "evidenceSanitization": {
+    "originalBuildReportsPreservedLocally": true,
+    "deliveryCopiesOnly": true,
+    "removed": [
+      "Machine hostname attribute from copied Gradle JUnit XML",
+      "Absolute local directory prefix from nine URI fields embedded in the copied Cucumber HTML; feature paths remain project-relative"
+    ],
+    "resultsAndTimestampsModified": false,
+    "absoluteLocalPathsDetectedInSourceHtml": true,
+    "absoluteLocalPathsRemainingInDelivery": false,
+    "htmlMessagesParsed": 75,
+    "htmlUriFieldsChanged": 9,
+    "htmlOtherMessageFieldsUnchanged": true,
+    "credentialOrTokenValuesDetected": false,
+    "note": "Cucumber retains project-relative feature paths and column references. Embedded HTML messages were parsed before and after sanitization: only nine URI fields changed. Scan includes JSON-escaped and URL-encoded path forms; it is a scoped check, not a guarantee for future reports."
+  },
+  "warnings": [
+    "Selenium 4.41.0 warns that it has no Chrome 154 CDP binding. These functional scenarios use WebDriver and all passed; no DevTools/network audit is claimed.",
+    "Scenario durations include browser/test setup and waits; they are not page performance metrics.",
+    "export-manifest.json retains executed:false as original export provenance; this separate summary records the subsequent real validation."
+  ],
+  "pending": [
+    "Firefox and Edge are configurable but were not functionally executed in this Java project.",
+    "Responsive, Lighthouse and interaction evidence belong to separate Ultimate evaluations; this summary does not assert their coverage."
+  ],
+  "reportLines": [
+    "Suite Java: 15 pruebas aprobadas, sin fallos ni omitidas (3 escenarios reales en Chrome y 12 contratos unitarios).",
+    "POS-001 compra: 11,812 s; NEG-001 bloqueo: 6,050 s; ALT-001 cancelación: 7,233 s. Tiempos JUnit, no métricas de rendimiento web.",
+    "Entorno: Java 11, Gradle 8.0, Chrome 154.0.8037.59 headless; navegador aislado por escenario y Java global sin cambios.",
+    "Excel conservado sin cambios; credenciales por entorno. Tras formatear e importar explícitamente, recompilación y 12 unitarios aprobados de nuevo.",
+    "Los reportes entregables omiten el nombre del equipo y las rutas locales, sin cambiar resultados ni fechas. Firefox/Edge no se ejecutaron en esta suite; Responsive y Lighthouse se informan por separado."
+  ]
+}

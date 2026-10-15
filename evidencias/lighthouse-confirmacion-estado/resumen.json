@@ -1,0 +1,837 @@
+{
+  "id": "b1fe201f-1637-461f-987d-43c862993294",
+  "name": "Lighthouse suplementario · confirmación sin recarga",
+  "createdAt": "2026-10-15T19:05:56.696Z",
+  "status": "completed",
+  "executionContext": "Standalone local evaluation explicitly authorized for the challenge; no application account, permissions or history changed.",
+  "provenance": {
+    "backup": "backup_automation_2026-10-15.json",
+    "backupSha256": "322aa29329bbb07feb00384ed0141f51602cc6589e05d431f6b66039a8d82ebd",
+    "savedTestId": 63,
+    "savedScenarioId": 91,
+    "recordedStepCount": 14,
+    "excelSheet": "Compra",
+    "dataRows": 1,
+    "selectorsModified": false,
+    "excelModified": false,
+    "originalHistoryModified": false,
+    "backupUnchanged": true
+  },
+  "executionNotes": {
+    "initialAttemptExcluded": true,
+    "exclusionReason": "The entire first attempt is excluded because a frontend production build was running concurrently. Its samples were not compared or reused.",
+    "excludedAttemptIncludedInPackage": false,
+    "measurementScheduling": "Started after integrity regression tests finished; the coordinator will not run builds or tests during this new measurement.",
+    "screenIdentity": "The exact prepared target and visible URL were checked; recorded final assertions and screen landmarks were verified before and after the no-navigation snapshot.",
+    "snapshots": "Snapshot states do not receive loading performance scores."
+  },
+  "config": {
+    "version": 3,
+    "name": "Lighthouse suplementario · confirmación sin recarga",
+    "url": "https://www.saucedemo.com/",
+    "profiles": [
+      {
+        "id": "profile-0",
+        "name": "Escritorio",
+        "width": 1366,
+        "height": 768,
+        "kind": "desktop"
+      }
+    ],
+    "browsers": [
+      "chromium"
+    ],
+    "scenarios": [
+      {
+        "id": "test-63-row-1",
+        "name": "Completion and confirmation of demo purchase · fila 1",
+        "checkpoints": [
+          14
+        ],
+        "measures": {
+          "responsive": false,
+          "lighthouse": true
+        },
+        "url": "https://www.saucedemo.com/",
+        "expectedUrl": "",
+        "expectedText": "",
+        "stepCount": 14
+      }
+    ],
+    "maskSelectors": [],
+    "responsive": false,
+    "responsiveScope": "checkpoints",
+    "lighthouse": true,
+    "lighthouseScope": "final",
+    "lighthouseModes": [
+      "mobile",
+      "desktop"
+    ],
+    "interactions": false,
+    "compare": false,
+    "checkOrientationChanges": false
+  },
+  "results": [],
+  "interactions": [],
+  "lighthouse": [
+    {
+      "mode": "mobile",
+      "status": "completed",
+      "expectedRuns": 3,
+      "completedRuns": 3,
+      "runs": [
+        {
+          "finalUrl": "https://www.saucedemo.com/checkout-complete.html",
+          "targetIdentity": "af752fba2dc5ee8acecb5632523548e6c1289034832473a3985d26a54f69f2e9",
+          "documentIdentity": null,
+          "targetId": "F7E2D942E24CBB9CBD844118A137E65B",
+          "auditMode": "snapshot",
+          "cachePolicy": "existing-state",
+          "lighthouseVersion": "13.5.0",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/147.0.7727.15 Safari/537.36",
+          "fetchTime": "2026-10-15T19:06:04.639Z",
+          "environment": {
+            "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/147.0.7727.15 Safari/537.36",
+            "benchmarkIndex": 1737.5,
+            "credits": {
+              "axe-core": "4.14.0"
+            }
+          },
+          "configSettings": {
+            "output": "json",
+            "maxWaitForFcp": 30000,
+            "maxWaitForLoad": 45000,
+            "pauseAfterFcpMs": 1000,
+            "pauseAfterLoadMs": 1000,
+            "networkQuietThresholdMs": 1000,
+            "cpuQuietThresholdMs": 1000,
+            "formFactor": "mobile",
+            "throttling": {
+              "rttMs": 150,
+              "throughputKbps": 1638.4,
+              "requestLatencyMs": 562.5,
+              "downloadThroughputKbps": 1474.5600000000002,
+              "uploadThroughputKbps": 675,
+              "cpuSlowdownMultiplier": 4
+            },
+            "throttlingMethod": "simulate",
+            "screenEmulation": {
+              "mobile": true,
+              "width": 412,
+              "height": 823,
+              "deviceScaleFactor": 1,
+              "disabled": true
+            },
+            "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+            "auditMode": false,
+            "gatherMode": false,
+            "clearStorageTypes": [
+              "file_systems",
+              "shader_cache",
+              "service_workers",
+              "cache_storage"
+            ],
+            "disableStorageReset": true,
+            "debugNavigation": false,
+            "channel": "node",
+            "usePassiveGathering": false,
+            "disableFullPageScreenshot": false,
+            "skipAboutBlank": false,
+            "blankPage": "about:blank",
+            "ignoreStatusCode": false,
+            "locale": "es",
+            "blockedUrlPatterns": null,
+            "additionalTraceCategories": null,
+            "extraHeaders": null,
+            "precomputedLanternData": null,
+            "onlyAudits": null,
+            "onlyCategories": [
+              "accessibility",
+              "best-practices",
+              "seo"
+            ],
+            "skipAudits": null
+          },
+          "categories": {
+            "performance": null,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "metrics": {},
+          "findings": [],
+          "reportsSanitized": true,
+          "warnings": [
+            "Estado actual sin recarga: no se mide el rendimiento de carga."
+          ],
+          "iteration": 1,
+          "status": "completed",
+          "jsonArtifactId": "6f63e312-9343-4c25-9c68-45903c9e9208",
+          "htmlArtifactId": "2a20825c-7fd9-4925-b8b8-384f3ffa20f1"
+        },
+        {
+          "finalUrl": "https://www.saucedemo.com/checkout-complete.html",
+          "targetIdentity": "af752fba2dc5ee8acecb5632523548e6c1289034832473a3985d26a54f69f2e9",
+          "documentIdentity": null,
+          "targetId": "018CD0A07C611722FDEEBEECB0FEB11B",
+          "auditMode": "snapshot",
+          "cachePolicy": "existing-state",
+          "lighthouseVersion": "13.5.0",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/147.0.7727.15 Safari/537.36",
+          "fetchTime": "2026-10-15T19:06:13.686Z",
+          "environment": {
+            "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/147.0.7727.15 Safari/537.36",
+            "benchmarkIndex": 1672,
+            "credits": {
+              "axe-core": "4.14.0"
+            }
+          },
+          "configSettings": {
+            "output": "json",
+            "maxWaitForFcp": 30000,
+            "maxWaitForLoad": 45000,
+            "pauseAfterFcpMs": 1000,
+            "pauseAfterLoadMs": 1000,
+            "networkQuietThresholdMs": 1000,
+            "cpuQuietThresholdMs": 1000,
+            "formFactor": "mobile",
+            "throttling": {
+              "rttMs": 150,
+              "throughputKbps": 1638.4,
+              "requestLatencyMs": 562.5,
+              "downloadThroughputKbps": 1474.5600000000002,
+              "uploadThroughputKbps": 675,
+              "cpuSlowdownMultiplier": 4
+            },
+            "throttlingMethod": "simulate",
+            "screenEmulation": {
+              "mobile": true,
+              "width": 412,
+              "height": 823,
+              "deviceScaleFactor": 1,
+              "disabled": true
+            },
+            "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+            "auditMode": false,
+            "gatherMode": false,
+            "clearStorageTypes": [
+              "file_systems",
+              "shader_cache",
+              "service_workers",
+              "cache_storage"
+            ],
+            "disableStorageReset": true,
+            "debugNavigation": false,
+            "channel": "node",
+            "usePassiveGathering": false,
+            "disableFullPageScreenshot": false,
+            "skipAboutBlank": false,
+            "blankPage": "about:blank",
+            "ignoreStatusCode": false,
+            "locale": "es",
+            "blockedUrlPatterns": null,
+            "additionalTraceCategories": null,
+            "extraHeaders": null,
+            "precomputedLanternData": null,
+            "onlyAudits": null,
+            "onlyCategories": [
+              "accessibility",
+              "best-practices",
+              "seo"
+            ],
+            "skipAudits": null
+          },
+          "categories": {
+            "performance": null,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "metrics": {},
+          "findings": [],
+          "reportsSanitized": true,
+          "warnings": [
+            "Estado actual sin recarga: no se mide el rendimiento de carga."
+          ],
+          "iteration": 2,
+          "status": "completed",
+          "jsonArtifactId": "a65392e3-0d01-41ba-b7ca-3ad3738216d9",
+          "htmlArtifactId": "86c9edbf-d37c-41bd-b93f-77450df12af0"
+        },
+        {
+          "finalUrl": "https://www.saucedemo.com/checkout-complete.html",
+          "targetIdentity": "af752fba2dc5ee8acecb5632523548e6c1289034832473a3985d26a54f69f2e9",
+          "documentIdentity": null,
+          "targetId": "8A9EAB15A4324AE2DB05AF254EB33E0B",
+          "auditMode": "snapshot",
+          "cachePolicy": "existing-state",
+          "lighthouseVersion": "13.5.0",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/147.0.7727.15 Safari/537.36",
+          "fetchTime": "2026-10-15T19:06:23.038Z",
+          "environment": {
+            "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/147.0.7727.15 Safari/537.36",
+            "benchmarkIndex": 1550,
+            "credits": {
+              "axe-core": "4.14.0"
+            }
+          },
+          "configSettings": {
+            "output": "json",
+            "maxWaitForFcp": 30000,
+            "maxWaitForLoad": 45000,
+            "pauseAfterFcpMs": 1000,
+            "pauseAfterLoadMs": 1000,
+            "networkQuietThresholdMs": 1000,
+            "cpuQuietThresholdMs": 1000,
+            "formFactor": "mobile",
+            "throttling": {
+              "rttMs": 150,
+              "throughputKbps": 1638.4,
+              "requestLatencyMs": 562.5,
+              "downloadThroughputKbps": 1474.5600000000002,
+              "uploadThroughputKbps": 675,
+              "cpuSlowdownMultiplier": 4
+            },
+            "throttlingMethod": "simulate",
+            "screenEmulation": {
+              "mobile": true,
+              "width": 412,
+              "height": 823,
+              "deviceScaleFactor": 1,
+              "disabled": true
+            },
+            "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+            "auditMode": false,
+            "gatherMode": false,
+            "clearStorageTypes": [
+              "file_systems",
+              "shader_cache",
+              "service_workers",
+              "cache_storage"
+            ],
+            "disableStorageReset": true,
+            "debugNavigation": false,
+            "channel": "node",
+            "usePassiveGathering": false,
+            "disableFullPageScreenshot": false,
+            "skipAboutBlank": false,
+            "blankPage": "about:blank",
+            "ignoreStatusCode": false,
+            "locale": "es",
+            "blockedUrlPatterns": null,
+            "additionalTraceCategories": null,
+            "extraHeaders": null,
+            "precomputedLanternData": null,
+            "onlyAudits": null,
+            "onlyCategories": [
+              "accessibility",
+              "best-practices",
+              "seo"
+            ],
+            "skipAudits": null
+          },
+          "categories": {
+            "performance": null,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "metrics": {},
+          "findings": [],
+          "reportsSanitized": true,
+          "warnings": [
+            "Estado actual sin recarga: no se mide el rendimiento de carga."
+          ],
+          "iteration": 3,
+          "status": "completed",
+          "jsonArtifactId": "3309b6a3-6b93-4f72-b6dd-5b8d2a4f21d6",
+          "htmlArtifactId": "a4f2fa1c-50fb-409b-ad1a-8723b43c9e1d"
+        }
+      ],
+      "categories": {
+        "performance": null,
+        "accessibility": {
+          "median": 100,
+          "min": 100,
+          "max": 100,
+          "samples": 3
+        },
+        "best-practices": {
+          "median": 100,
+          "min": 100,
+          "max": 100,
+          "samples": 3
+        },
+        "seo": {
+          "median": 100,
+          "min": 100,
+          "max": 100,
+          "samples": 3
+        }
+      },
+      "metrics": {
+        "first-contentful-paint": null,
+        "largest-contentful-paint": null,
+        "speed-index": null,
+        "total-blocking-time": null,
+        "cumulative-layout-shift": null
+      },
+      "targetId": "test-63-row-1:point-14",
+      "checkpoint": 14,
+      "targetName": "Pantalla después del paso 14",
+      "reasons": [
+        "final",
+        "explicit-supplemental-snapshot"
+      ],
+      "auditMode": "snapshot",
+      "scenarioId": "test-63-row-1",
+      "scenarioName": "Completion and confirmation of demo purchase · fila 1",
+      "securityProxy": true,
+      "measurementType": "laboratory"
+    },
+    {
+      "mode": "desktop",
+      "status": "completed",
+      "expectedRuns": 3,
+      "completedRuns": 3,
+      "runs": [
+        {
+          "finalUrl": "https://www.saucedemo.com/checkout-complete.html",
+          "targetIdentity": "af752fba2dc5ee8acecb5632523548e6c1289034832473a3985d26a54f69f2e9",
+          "documentIdentity": null,
+          "targetId": "9E7388F9E3B73E134931B9E995CE0F10",
+          "auditMode": "snapshot",
+          "cachePolicy": "existing-state",
+          "lighthouseVersion": "13.5.0",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/147.0.7727.15 Safari/537.36",
+          "fetchTime": "2026-10-15T19:06:32.296Z",
+          "environment": {
+            "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/147.0.7727.15 Safari/537.36",
+            "benchmarkIndex": 1625.5,
+            "credits": {
+              "axe-core": "4.14.0"
+            }
+          },
+          "configSettings": {
+            "output": "json",
+            "maxWaitForFcp": 30000,
+            "maxWaitForLoad": 45000,
+            "pauseAfterFcpMs": 1000,
+            "pauseAfterLoadMs": 1000,
+            "networkQuietThresholdMs": 1000,
+            "cpuQuietThresholdMs": 1000,
+            "formFactor": "desktop",
+            "throttling": {
+              "rttMs": 40,
+              "throughputKbps": 10240,
+              "requestLatencyMs": 0,
+              "downloadThroughputKbps": 0,
+              "uploadThroughputKbps": 0,
+              "cpuSlowdownMultiplier": 1
+            },
+            "throttlingMethod": "simulate",
+            "screenEmulation": {
+              "mobile": false,
+              "width": 1350,
+              "height": 940,
+              "deviceScaleFactor": 1,
+              "disabled": true
+            },
+            "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+            "auditMode": false,
+            "gatherMode": false,
+            "clearStorageTypes": [
+              "file_systems",
+              "shader_cache",
+              "service_workers",
+              "cache_storage"
+            ],
+            "disableStorageReset": true,
+            "debugNavigation": false,
+            "channel": "node",
+            "usePassiveGathering": false,
+            "disableFullPageScreenshot": false,
+            "skipAboutBlank": false,
+            "blankPage": "about:blank",
+            "ignoreStatusCode": false,
+            "locale": "es",
+            "blockedUrlPatterns": null,
+            "additionalTraceCategories": null,
+            "extraHeaders": null,
+            "precomputedLanternData": null,
+            "onlyAudits": null,
+            "onlyCategories": [
+              "accessibility",
+              "best-practices",
+              "seo"
+            ],
+            "skipAudits": null
+          },
+          "categories": {
+            "performance": null,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "metrics": {},
+          "findings": [],
+          "reportsSanitized": true,
+          "warnings": [
+            "Estado actual sin recarga: no se mide el rendimiento de carga."
+          ],
+          "iteration": 1,
+          "status": "completed",
+          "jsonArtifactId": "5702605b-127a-4ab9-8047-fa18e0bbed25",
+          "htmlArtifactId": "81eaa5ac-fe22-402e-bcae-e25a19493da0"
+        },
+        {
+          "finalUrl": "https://www.saucedemo.com/checkout-complete.html",
+          "targetIdentity": "af752fba2dc5ee8acecb5632523548e6c1289034832473a3985d26a54f69f2e9",
+          "documentIdentity": null,
+          "targetId": "95A92655CFA2F799C277F428FB6437F2",
+          "auditMode": "snapshot",
+          "cachePolicy": "existing-state",
+          "lighthouseVersion": "13.5.0",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/147.0.7727.15 Safari/537.36",
+          "fetchTime": "2026-10-15T19:06:41.659Z",
+          "environment": {
+            "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/147.0.7727.15 Safari/537.36",
+            "benchmarkIndex": 1904.5,
+            "credits": {
+              "axe-core": "4.14.0"
+            }
+          },
+          "configSettings": {
+            "output": "json",
+            "maxWaitForFcp": 30000,
+            "maxWaitForLoad": 45000,
+            "pauseAfterFcpMs": 1000,
+            "pauseAfterLoadMs": 1000,
+            "networkQuietThresholdMs": 1000,
+            "cpuQuietThresholdMs": 1000,
+            "formFactor": "desktop",
+            "throttling": {
+              "rttMs": 40,
+              "throughputKbps": 10240,
+              "requestLatencyMs": 0,
+              "downloadThroughputKbps": 0,
+              "uploadThroughputKbps": 0,
+              "cpuSlowdownMultiplier": 1
+            },
+            "throttlingMethod": "simulate",
+            "screenEmulation": {
+              "mobile": false,
+              "width": 1350,
+              "height": 940,
+              "deviceScaleFactor": 1,
+              "disabled": true
+            },
+            "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+            "auditMode": false,
+            "gatherMode": false,
+            "clearStorageTypes": [
+              "file_systems",
+              "shader_cache",
+              "service_workers",
+              "cache_storage"
+            ],
+            "disableStorageReset": true,
+            "debugNavigation": false,
+            "channel": "node",
+            "usePassiveGathering": false,
+            "disableFullPageScreenshot": false,
+            "skipAboutBlank": false,
+            "blankPage": "about:blank",
+            "ignoreStatusCode": false,
+            "locale": "es",
+            "blockedUrlPatterns": null,
+            "additionalTraceCategories": null,
+            "extraHeaders": null,
+            "precomputedLanternData": null,
+            "onlyAudits": null,
+            "onlyCategories": [
+              "accessibility",
+              "best-practices",
+              "seo"
+            ],
+            "skipAudits": null
+          },
+          "categories": {
+            "performance": null,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "metrics": {},
+          "findings": [],
+          "reportsSanitized": true,
+          "warnings": [
+            "Estado actual sin recarga: no se mide el rendimiento de carga."
+          ],
+          "iteration": 2,
+          "status": "completed",
+          "jsonArtifactId": "9dbb0788-d37e-4bcd-880e-5ff16396afec",
+          "htmlArtifactId": "b3acd5f7-fb98-44c8-b9c5-060e67763e48"
+        },
+        {
+          "finalUrl": "https://www.saucedemo.com/checkout-complete.html",
+          "targetIdentity": "af752fba2dc5ee8acecb5632523548e6c1289034832473a3985d26a54f69f2e9",
+          "documentIdentity": null,
+          "targetId": "59324B88048D35B454480DE15A2604CB",
+          "auditMode": "snapshot",
+          "cachePolicy": "existing-state",
+          "lighthouseVersion": "13.5.0",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/147.0.7727.15 Safari/537.36",
+          "fetchTime": "2026-10-15T19:06:51.478Z",
+          "environment": {
+            "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/147.0.7727.15 Safari/537.36",
+            "benchmarkIndex": 1889.5,
+            "credits": {
+              "axe-core": "4.14.0"
+            }
+          },
+          "configSettings": {
+            "output": "json",
+            "maxWaitForFcp": 30000,
+            "maxWaitForLoad": 45000,
+            "pauseAfterFcpMs": 1000,
+            "pauseAfterLoadMs": 1000,
+            "networkQuietThresholdMs": 1000,
+            "cpuQuietThresholdMs": 1000,
+            "formFactor": "desktop",
+            "throttling": {
+              "rttMs": 40,
+              "throughputKbps": 10240,
+              "requestLatencyMs": 0,
+              "downloadThroughputKbps": 0,
+              "uploadThroughputKbps": 0,
+              "cpuSlowdownMultiplier": 1
+            },
+            "throttlingMethod": "simulate",
+            "screenEmulation": {
+              "mobile": false,
+              "width": 1350,
+              "height": 940,
+              "deviceScaleFactor": 1,
+              "disabled": true
+            },
+            "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+            "auditMode": false,
+            "gatherMode": false,
+            "clearStorageTypes": [
+              "file_systems",
+              "shader_cache",
+              "service_workers",
+              "cache_storage"
+            ],
+            "disableStorageReset": true,
+            "debugNavigation": false,
+            "channel": "node",
+            "usePassiveGathering": false,
+            "disableFullPageScreenshot": false,
+            "skipAboutBlank": false,
+            "blankPage": "about:blank",
+            "ignoreStatusCode": false,
+            "locale": "es",
+            "blockedUrlPatterns": null,
+            "additionalTraceCategories": null,
+            "extraHeaders": null,
+            "precomputedLanternData": null,
+            "onlyAudits": null,
+            "onlyCategories": [
+              "accessibility",
+              "best-practices",
+              "seo"
+            ],
+            "skipAudits": null
+          },
+          "categories": {
+            "performance": null,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "metrics": {},
+          "findings": [],
+          "reportsSanitized": true,
+          "warnings": [
+            "Estado actual sin recarga: no se mide el rendimiento de carga."
+          ],
+          "iteration": 3,
+          "status": "completed",
+          "jsonArtifactId": "16052da8-a1a0-4811-b46d-2eb8f5ddd260",
+          "htmlArtifactId": "9121cec0-fffd-4fee-a9b4-f16ef1a4a7f9"
+        }
+      ],
+      "categories": {
+        "performance": null,
+        "accessibility": {
+          "median": 100,
+          "min": 100,
+          "max": 100,
+          "samples": 3
+        },
+        "best-practices": {
+          "median": 100,
+          "min": 100,
+          "max": 100,
+          "samples": 3
+        },
+        "seo": {
+          "median": 100,
+          "min": 100,
+          "max": 100,
+          "samples": 3
+        }
+      },
+      "metrics": {
+        "first-contentful-paint": null,
+        "largest-contentful-paint": null,
+        "speed-index": null,
+        "total-blocking-time": null,
+        "cumulative-layout-shift": null
+      },
+      "targetId": "test-63-row-1:point-14",
+      "checkpoint": 14,
+      "targetName": "Pantalla después del paso 14",
+      "reasons": [
+        "final",
+        "explicit-supplemental-snapshot"
+      ],
+      "auditMode": "snapshot",
+      "scenarioId": "test-63-row-1",
+      "scenarioName": "Completion and confirmation of demo purchase · fila 1",
+      "securityProxy": true,
+      "measurementType": "laboratory"
+    }
+  ],
+  "lighthousePlan": [
+    {
+      "scenarioId": "test-63-row-1",
+      "scenarioName": "Completion and confirmation of demo purchase · fila 1",
+      "targets": [
+        {
+          "targetId": "test-63-row-1:point-14",
+          "checkpoint": 14,
+          "targetName": "Pantalla después del paso 14",
+          "reasons": [
+            "final",
+            "explicit-supplemental-snapshot"
+          ],
+          "auditMode": "snapshot"
+        }
+      ],
+      "status": "ready"
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "6f63e312-9343-4c25-9c68-45903c9e9208",
+      "filename": "6f63e312-9343-4c25-9c68-45903c9e9208.json",
+      "extension": "json",
+      "bytes": 137957,
+      "sha256": "2b02145fd2ad09fb519375bf8143ee7880d1c7ebf599f7822037a3613f3dbb5e",
+      "kind": "lighthouse"
+    },
+    {
+      "id": "2a20825c-7fd9-4925-b8b8-384f3ffa20f1",
+      "filename": "2a20825c-7fd9-4925-b8b8-384f3ffa20f1.html",
+      "extension": "html",
+      "bytes": 295746,
+      "sha256": "03dcedc312555c0fab1bb153efbe9f47521bd98dfa064e1a727d2a45736b3fa7",
+      "kind": "lighthouse"
+    },
+    {
+      "id": "a65392e3-0d01-41ba-b7ca-3ad3738216d9",
+      "filename": "a65392e3-0d01-41ba-b7ca-3ad3738216d9.json",
+      "extension": "json",
+      "bytes": 137947,
+      "sha256": "d4fbd9c13bc4efd86e6065fa899972eb1f69e68d797dce85ce37d6c46d429e79",
+      "kind": "lighthouse"
+    },
+    {
+      "id": "86c9edbf-d37c-41bd-b93f-77450df12af0",
+      "filename": "86c9edbf-d37c-41bd-b93f-77450df12af0.html",
+      "extension": "html",
+      "bytes": 295736,
+      "sha256": "4246a7fadfd8ec778ea82eecf6c118b3b923679bf2f98bdef29524802907c076",
+      "kind": "lighthouse"
+    },
+    {
+      "id": "3309b6a3-6b93-4f72-b6dd-5b8d2a4f21d6",
+      "filename": "3309b6a3-6b93-4f72-b6dd-5b8d2a4f21d6.json",
+      "extension": "json",
+      "bytes": 137952,
+      "sha256": "7e1c9ca64ddb321e5adf42a5fa7cbb7d6beeb88e4119bd1422e3bb5623733c39",
+      "kind": "lighthouse"
+    },
+    {
+      "id": "a4f2fa1c-50fb-409b-ad1a-8723b43c9e1d",
+      "filename": "a4f2fa1c-50fb-409b-ad1a-8723b43c9e1d.html",
+      "extension": "html",
+      "bytes": 295741,
+      "sha256": "0e43f21340aeecd562bfe50a101cede0504f43f2b7e0777022ff67be626f95fb",
+      "kind": "lighthouse"
+    },
+    {
+      "id": "5702605b-127a-4ab9-8047-fa18e0bbed25",
+      "filename": "5702605b-127a-4ab9-8047-fa18e0bbed25.json",
+      "extension": "json",
+      "bytes": 139687,
+      "sha256": "920e0aa0f59c00f087f4a8db1f5ae2cc5350417d2199aab86c099454b222914f",
+      "kind": "lighthouse"
+    },
+    {
+      "id": "81eaa5ac-fe22-402e-bcae-e25a19493da0",
+      "filename": "81eaa5ac-fe22-402e-bcae-e25a19493da0.html",
+      "extension": "html",
+      "bytes": 297476,
+      "sha256": "ea8c42f3840a462887e2e191856606be80346121b2578ecc8562f00d1e96ffda",
+      "kind": "lighthouse"
+    },
+    {
+      "id": "9dbb0788-d37e-4bcd-880e-5ff16396afec",
+      "filename": "9dbb0788-d37e-4bcd-880e-5ff16396afec.json",
+      "extension": "json",
+      "bytes": 139702,
+      "sha256": "abcdbef985846fe00e28c0c59ce69e9f2d6e386cbfe6351933397296b6d9b694",
+      "kind": "lighthouse"
+    },
+    {
+      "id": "b3acd5f7-fb98-44c8-b9c5-060e67763e48",
+      "filename": "b3acd5f7-fb98-44c8-b9c5-060e67763e48.html",
+      "extension": "html",
+      "bytes": 297491,
+      "sha256": "4c1cac8e09a005f4f4dcfcbe7ce651b8650bb726152f776a845f3cbd039aec2d",
+      "kind": "lighthouse"
+    },
+    {
+      "id": "16052da8-a1a0-4811-b46d-2eb8f5ddd260",
+      "filename": "16052da8-a1a0-4811-b46d-2eb8f5ddd260.json",
+      "extension": "json",
+      "bytes": 139706,
+      "sha256": "c9a07e8b4fb477c62b391d1cb69109673611c3d638472810e859f9ad0837f4e5",
+      "kind": "lighthouse"
+    },
+    {
+      "id": "9121cec0-fffd-4fee-a9b4-f16ef1a4a7f9",
+      "filename": "9121cec0-fffd-4fee-a9b4-f16ef1a4a7f9.html",
+      "extension": "html",
+      "bytes": 297495,
+      "sha256": "3affe1ec49b79740c3225fb3add169b19370e6bbb7ecf2c359e17ba62f30bb24",
+      "kind": "lighthouse"
+    }
+  ],
+  "supplement": {
+    "explicit": true,
+    "requestedAuditMode": "snapshot",
+    "checkpoint": 14,
+    "navigationEvaluationId": "c699498f-56a4-4363-8682-284c6912b61d",
+    "reason": "The current confirmation includes Generate PDF order, which disappears after reload. This is an explicit additional state audit, not a replacement for discarded navigation samples.",
+    "replacesNavigationSamples": false,
+    "loadingPerformanceApplicable": false,
+    "limitations": "Scores cover only snapshot-compatible checks; they are not equivalent to navigation category coverage and do not certify complete accessibility or SEO."
+  },
+  "stage": "Lighthouse · Completion and confirmation of demo purchase · fila 1 · Pantalla después del paso 14 · desktop · 3/3",
+  "finishedAt": "2026-10-15T19:06:54.035Z"
+}

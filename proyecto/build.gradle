@@ -1,0 +1,32 @@
+plugins { id 'java' }
+group = 'com.ultimate.qa'
+version = '1.0.0'
+repositories { mavenCentral() }
+java { toolchain { languageVersion = JavaLanguageVersion.of(11) } }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8'; options.release = 11 }
+dependencies {
+    testImplementation 'org.seleniumhq.selenium:selenium-java:4.41.0'
+    testImplementation 'io.cucumber:cucumber-java:7.20.1'
+    testImplementation 'io.cucumber:cucumber-junit:7.20.1'
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.apache.poi:poi-ooxml:5.5.1'
+}
+tasks.register('prepareFeatures', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.ultimate.qa.support.FeatureDataPreparer'
+    if (System.getProperty('data.file')) systemProperty 'data.file', System.getProperty('data.file')
+}
+test {
+    dependsOn prepareFeatures
+    outputs.upToDateWhen { false }
+    useJUnit()
+    maxParallelForks = 1
+    systemProperties System.properties.findAll { key, value ->
+        key.toString().startsWith('cucumber.') || key.toString().startsWith('webdriver.') ||
+        key.toString().startsWith('browser') || key.toString().startsWith('viewport.') ||
+        key.toString() in ['headless', 'base.url', 'data.file', 'wait.seconds']
+    }
+    testLogging { events 'passed', 'skipped', 'failed'; exceptionFormat 'short'; showStandardStreams = true }
+}
+wrapper { gradleVersion = '8.0'; distributionType = Wrapper.DistributionType.BIN }

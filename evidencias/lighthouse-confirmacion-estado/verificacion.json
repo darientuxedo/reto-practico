@@ -1,0 +1,18 @@
+{
+  "verifiedAt": "2026-10-15T19:08:39.075Z",
+  "folder": "lighthouse-confirmacion-estado",
+  "status": "completed",
+  "nativeArtifactHashesVerified": 12,
+  "filesScanned": 14,
+  "linksVerified": 13,
+  "privacyFindings": [],
+  "errorAudits": [],
+  "reportsWithInsightErrors": 0,
+  "validLcpWithInsightErrors": 0,
+  "scoresErrorsAndDatesPreserved": true,
+  "nativeLocalPathsRedacted": false,
+  "originalBackupUnchanged": true,
+  "screenshotAndContentLimitation": "Native reports can show public demo page content; this is not an audit for arbitrary sensitive data.",
+  "navigationPerformanceAbsent": true,
+  "separateSupplement": true
+}

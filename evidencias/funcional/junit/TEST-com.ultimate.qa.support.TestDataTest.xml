@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ultimate.qa.support.TestDataTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-15T18:17:46" time="2.277">
+  <properties/>
+  <testcase name="formulaCellsAreRejectedInsteadOfUsingAStaleCachedValue" classname="com.ultimate.qa.support.TestDataTest" time="1.122"/>
+  <testcase name="missingOrDuplicateHeadersAndMissingCasesFail" classname="com.ultimate.qa.support.TestDataTest" time="0.476"/>
+  <testcase name="invalidOrDuplicateCaseIdsFailBeforeExecution" classname="com.ultimate.qa.support.TestDataTest" time="0.501"/>
+  <testcase name="suppliedWorkbookHasCasesAndOnlySecretReferences" classname="com.ultimate.qa.support.TestDataTest" time="0.083"/>
+  <testcase name="workbookSelectsExactCaseAndRetainsTextIdentifiers" classname="com.ultimate.qa.support.TestDataTest" time="0.094"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
